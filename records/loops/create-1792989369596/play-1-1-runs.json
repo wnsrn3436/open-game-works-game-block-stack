@@ -1,0 +1,850 @@
+{
+  "runs": [
+    {
+      "command": "ogw input --help",
+      "startedAt": 1792991618902,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswof415ef25",
+      "startedAt": 1792991621009,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswof415ef25",
+      "startedAt": 1792991621717,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 tap_anchor terms_agree_all",
+      "startedAt": 1792991625874,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswof415ef25",
+      "startedAt": 1792991626717,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 tap_anchor terms_confirm",
+      "startedAt": 1792991627059,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswof415ef25",
+      "startedAt": 1792991629930,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step-mode mvoswof415ef25 on",
+      "startedAt": 1792991633602,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 tap_anchor lobby_play",
+      "startedAt": 1792991633924,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --count 6 --state --capture",
+      "startedAt": 1792991636282,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --count 11 --state",
+      "startedAt": 1792991639266,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991642116,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 key Space",
+      "startedAt": 1792991642490,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --capture --state",
+      "startedAt": 1792991642820,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991650684,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991651111,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991651560,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991651997,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991652452,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991652881,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991653326,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991653760,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991654177,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991654593,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991655036,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991655474,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991655907,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991656329,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991656751,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991657182,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991657607,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991658039,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991658474,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991658910,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 key Space",
+      "startedAt": 1792991659384,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991659748,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991660168,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991660597,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991661013,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991661438,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991661874,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991662299,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991662734,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991663169,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991663594,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991664008,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991664419,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991664836,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991665248,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991665683,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991666099,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991666544,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991666980,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991667400,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991667828,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 key Space",
+      "startedAt": 1792991668321,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991668686,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991669111,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991669542,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991669968,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991670440,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991670881,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991671306,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991671746,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991672234,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991672864,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991673332,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991673757,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991674176,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991674609,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991675027,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991675448,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991675868,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991676290,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991676717,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991677140,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 key Space",
+      "startedAt": 1792991677553,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991677902,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991678325,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991678761,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991679202,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991679691,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991680125,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991680565,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991681003,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991681438,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991681864,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991682291,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991682715,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991683157,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991683626,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991684096,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991684601,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991685074,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991685524,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991685976,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 key Space",
+      "startedAt": 1792991686465,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991686862,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991687341,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991687826,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991688329,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991688832,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991689315,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991689775,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991690219,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991690667,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991691106,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991691563,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991692004,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991692452,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991692883,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991693323,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991693764,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991694209,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991694659,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991695100,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 key Space",
+      "startedAt": 1792991695542,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991695907,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --count 2 --capture",
+      "startedAt": 1792991698342,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 key P",
+      "startedAt": 1792991698894,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswof415ef25",
+      "startedAt": 1792991699755,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50",
+      "startedAt": 1792991700125,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 tap_anchor pause_resume",
+      "startedAt": 1792991706024,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --state",
+      "startedAt": 1792991706895,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 key Space",
+      "startedAt": 1792991707311,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswof415ef25 50 --count 4 --capture",
+      "startedAt": 1792991707658,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step-mode mvoswof415ef25 off",
+      "startedAt": 1792991709402,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswof415ef25",
+      "startedAt": 1792991711266,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 tap_anchor result_again",
+      "startedAt": 1792991717203,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswof415ef25",
+      "startedAt": 1792991720073,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 key Space",
+      "startedAt": 1792991720442,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 key P",
+      "startedAt": 1792991721109,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 tap_anchor pause_end",
+      "startedAt": 1792991721992,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswof415ef25",
+      "startedAt": 1792991724361,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 tap_anchor result_lobby",
+      "startedAt": 1792991724759,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswof415ef25",
+      "startedAt": 1792991727631,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 tap_anchor lobby_options",
+      "startedAt": 1792991728044,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswof415ef25",
+      "startedAt": 1792991729438,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswof415ef25 tap_anchor option_close",
+      "startedAt": 1792991738008,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvoswof415ef25",
+      "startedAt": 1792991739384,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswof415ef25 --summary",
+      "startedAt": 1792991739838,
+      "exitCode": 0,
+      "summary": null
+    }
+  ]
+}

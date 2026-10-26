@@ -1,0 +1,1426 @@
+{
+  "runs": [
+    {
+      "command": "ogw input --help",
+      "startedAt": 1792991628242,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswtk90867df",
+      "startedAt": 1792991630471,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswtk90867df",
+      "startedAt": 1792991630821,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df tap_anchor terms_agree_all",
+      "startedAt": 1792991633997,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswtk90867df",
+      "startedAt": 1792991635314,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df tap_anchor terms_confirm",
+      "startedAt": 1792991635651,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswtk90867df",
+      "startedAt": 1792991638975,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step-mode mvoswtk90867df on",
+      "startedAt": 1792991642659,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df tap_anchor lobby_play",
+      "startedAt": 1792991642976,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --count 6 --state",
+      "startedAt": 1792991646310,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --count 11 --state",
+      "startedAt": 1792991649449,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991652474,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991652881,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --count 2 --capture --state",
+      "startedAt": 1792991653318,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 1 --state",
+      "startedAt": 1792991667011,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991667381,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991667795,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991668230,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991668661,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991669074,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991669483,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991669884,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991670319,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991670733,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991671141,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991671549,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991671986,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991672512,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991672991,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991673431,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991673834,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991674232,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991674631,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991675027,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991675431,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991675821,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991676213,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991676605,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 4 --state",
+      "startedAt": 1792991677014,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991677375,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 1 --state",
+      "startedAt": 1792991677730,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991678091,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991678500,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991678919,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991679385,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991679817,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991680225,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991680631,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991681027,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991681439,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991681839,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991682252,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991682656,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991683076,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991683515,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991683946,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991684425,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991684879,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991685304,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991685730,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991686150,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991686632,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991687087,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991687518,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991687984,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 20 --state",
+      "startedAt": 1792991688441,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991688912,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 1 --state",
+      "startedAt": 1792991689315,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991689735,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991690172,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991690592,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991691006,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991691422,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991691845,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991692276,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991692692,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991693110,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991693522,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991693939,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991694345,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991694755,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991695150,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991695567,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991695982,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991696393,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991696793,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991697193,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991697601,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991698021,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991698463,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991698868,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 37 --state",
+      "startedAt": 1792991699278,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991699686,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 1 --state",
+      "startedAt": 1792991700052,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991700425,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991700829,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991701228,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991701636,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991702043,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991702451,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991702862,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991703258,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991703667,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991704065,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991704460,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991704864,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991705274,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991705696,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991706125,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991706528,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991706938,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991707346,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991707750,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991708156,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991708555,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991708958,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991709378,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 15 --state",
+      "startedAt": 1792991709795,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991710177,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 1 --state",
+      "startedAt": 1792991710539,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991710950,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991711429,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991711853,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991712263,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991712669,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991713057,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991713467,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991713879,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991714276,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991714685,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991715088,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991715493,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991715925,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991716328,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991716750,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991717198,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991717608,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991718012,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991718407,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991718809,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991719201,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991719638,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 35 --state",
+      "startedAt": 1792991720046,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991720442,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 1 --state",
+      "startedAt": 1792991720797,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991721182,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991721609,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991722045,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991722464,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991722863,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991723255,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991723654,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991724059,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991724476,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991724904,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991725317,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991725757,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991726152,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991726551,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991726963,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991727357,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991727799,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991728251,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991728667,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991729066,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991729497,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991729891,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 16 --state",
+      "startedAt": 1792991730290,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991730670,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 1 --state",
+      "startedAt": 1792991731017,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991731408,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991731822,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991732239,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991732649,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991733060,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991733465,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991733866,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991734264,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991734675,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991735092,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991735560,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991735974,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991736390,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991736798,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991737196,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991737603,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991738008,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991738379,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991739239,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991739743,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991740112,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 37 --state",
+      "startedAt": 1792991740484,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991740892,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 1 --state",
+      "startedAt": 1792991741215,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991741556,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991741940,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991742327,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991742725,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991743161,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991743713,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991744262,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991744701,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991745104,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991745485,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991745867,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991746251,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991746625,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991747301,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991747700,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991748090,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991748480,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991748870,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991749251,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991749639,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 40 --state",
+      "startedAt": 1792991750028,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 20 --state",
+      "startedAt": 1792991750412,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991750774,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --capture",
+      "startedAt": 1792991753165,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key P",
+      "startedAt": 1792991757229,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswtk90867df",
+      "startedAt": 1792991758560,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50",
+      "startedAt": 1792991758908,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df tap_anchor pause_resume",
+      "startedAt": 1792991763579,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991764011,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 50 --state",
+      "startedAt": 1792991764442,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991764883,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 100 --count 4 --capture",
+      "startedAt": 1792991765280,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswtk90867df 100 --count 12 --capture",
+      "startedAt": 1792991768518,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step-mode mvoswtk90867df off",
+      "startedAt": 1792991771824,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswtk90867df",
+      "startedAt": 1792991774126,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df tap_anchor result_again",
+      "startedAt": 1792991778405,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswtk90867df",
+      "startedAt": 1792991781734,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df key Space",
+      "startedAt": 1792991782073,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswtk90867df",
+      "startedAt": 1792991783596,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvoswtk90867df",
+      "startedAt": 1792991783973,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df tap_anchor result_lobby",
+      "startedAt": 1792991789072,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswtk90867df tap_anchor lobby_options",
+      "startedAt": 1792991792416,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswtk90867df",
+      "startedAt": 1792991793781,
+      "exitCode": 0,
+      "summary": null
+    }
+  ]
+}

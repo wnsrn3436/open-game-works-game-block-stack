@@ -1,0 +1,683 @@
+{
+  "findings": [
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "the lobby title and the Options button overlap, so the UI quality check fails",
+      "id": "lobby-title-options-overlap",
+      "drop": null,
+      "source": "check",
+      "where": "scene/lobby/lobby",
+      "what": "overlap UICore/Panel/SafeAreaRoot/LobbyPanel/Top/Title UICore/Panel/SafeAreaRoot/LobbyPanel/Options in prefab/lobby/lobby_panel (en, macbook_air_13, lobby.open_lobby, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "the lobby title and the Options button overlap, so the UI quality check fails",
+      "id": "lobby-title-options-overlap",
+      "drop": null,
+      "source": "check",
+      "where": "scene/lobby/lobby",
+      "what": "overlap UICore/Panel/SafeAreaRoot/LobbyPanel/Top/Title UICore/Panel/SafeAreaRoot/LobbyPanel/Options in prefab/lobby/lobby_panel (en, display_16_9, lobby.open_lobby, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "HUD text is below the contrast the UI quality check needs",
+      "id": "hud-text-low-contrast",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "low contrast UICore/Panel/SafeAreaRoot/Hud/Top/Score: 2.94:1 in prefab/play/hud_panel (en, macbook_air_13, play.open_pause, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "HUD text is below the contrast the UI quality check needs",
+      "id": "hud-text-low-contrast",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "low contrast UICore/Panel/SafeAreaRoot/Hud/Hint: 2.94:1 in prefab/play/hud_panel (en, macbook_air_13, play.open_pause, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "HUD text is below the contrast the UI quality check needs",
+      "id": "hud-text-low-contrast",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "low contrast UICore/Panel/SafeAreaRoot/Hud/Top/Score: 2.94:1 in prefab/play/hud_panel (en, display_16_9, play.open_pause, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/lobby/lobby",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/LobbyPanel/Top: 100% one color in prefab/lobby/lobby_panel (en, macbook_air_13, lobby.open_lobby, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/lobby/lobby",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/LobbyPanel/BestPlate: 100% one color in prefab/lobby/lobby_panel (en, macbook_air_13, lobby.open_lobby, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/Hud/Top: 100% one color in prefab/play/hud_panel (en, macbook_air_13, play.open_play, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0003-en-macbook_air_13-play.open_play-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0003-en-macbook_air_13-play.open_play-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/Hud/BestPlate: 100% one color in prefab/play/hud_panel (en, macbook_air_13, play.open_play, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0003-en-macbook_air_13-play.open_play-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0003-en-macbook_air_13-play.open_play-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/Hud/Top: 100% one color in prefab/play/hud_panel (en, macbook_air_13, play.open_pause, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/Hud/BestPlate: 100% one color in prefab/play/hud_panel (en, macbook_air_13, play.open_pause, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/lobby/lobby",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/LobbyPanel/BestPlate: 100% one color in prefab/lobby/lobby_panel (en, display_16_9, lobby.open_lobby, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/Hud/Top: 100% one color in prefab/play/hud_panel (en, display_16_9, play.open_play, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0009-en-display_16_9-play.open_play-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0009-en-display_16_9-play.open_play-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/Hud/BestPlate: 100% one color in prefab/play/hud_panel (en, display_16_9, play.open_play, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0009-en-display_16_9-play.open_play-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0009-en-display_16_9-play.open_play-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/Hud/Top: 100% one color in prefab/play/hud_panel (en, display_16_9, play.open_pause, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "lobby and HUD panels are one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/Hud/BestPlate: 100% one color in prefab/play/hud_panel (en, display_16_9, play.open_pause, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-1.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.png",
+        "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "The result screen is static where the reference keeps motion on the reward panel; this count is below the reference",
+      "id": "idle-motion-hud-result",
+      "drop": null,
+      "source": "judge",
+      "where": "result panel",
+      "what": "No element moves while no input is given for 2000 ms (idle motion 0). The reference `Well Done!` panel has 2 (sparkles, star glow)",
+      "evidence": [
+        "`mvoswiok48da09-1792991993228.jpg` vs `mvoswiok48da09-1792991996026.jpg` (PSNR inf); ref video-2 44000/45000 ms"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "The HUD idle motion count is below the reference",
+      "id": "idle-motion-hud-result",
+      "drop": null,
+      "source": "judge",
+      "where": "play HUD",
+      "what": "No HUD element moves while no input is given for 2000 ms (idle motion 0). The reference HUD has ≥2 (animated avatar, shimmering pieces)",
+      "evidence": [
+        "`mvoswiok48da09-1792992151985.jpg` vs `mvoswiok48da09-1792992154854.jpg` (top 260 px, PSNR inf); ref video-2 103000/105000 ms"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "worse than the reference game, so `vs reference` is `fail`",
+      "id": "idle-motion-hud-result",
+      "drop": null,
+      "source": "judge",
+      "where": "vs reference: presentation",
+      "what": "Idle motion with no input for 2000 ms is lower than the reference on two screens. **HUD**: A has 0 (HUD band pixel-identical across 2000 ms of game time; PSNR inf); Royal Match HUD has ≥2 (king avatar animates, board pieces shimmer; diff 103000 vs 105000 ms). **Result**: A has 0 (whole frame pixel-identical over 2000 ms; PSNR inf); the `Well Done!` panel has 2 (twinkling sparkles around the star, star glow; diff 44000 vs 45000 ms). **Lobby**: A 2 (demo top block slides, `Play` pulses), reference ≥1. **Reward popup**: A has no reward popup screen; its reward is the in-HUD `Perfect ×n` badge and ring. The reference (126000–132000) has a `Well Done` panel, coins flying to the counter with `+49`, and a `Castle` panel. **Press feedback**: A 1 (Resume darkens and its label shifts; Sound + Tween on mouse_down); reference not visible in frames. Panel layers were not compared: all of A's panels are placeholders",
+      "evidence": [
+        "captures `mvoswiok48da09-1792991642917-video` (lobby), `mvoswiok48da09-1792992151985.jpg` vs `…2154854.jpg` (HUD), `mvoswiok48da09-1792991993228.jpg` vs `…1996026.jpg` (result), `mvoswiok48da09-1792992163249.jpg` vs `…2175708.jpg` (press); ref frames video-2 at 44000/45000, 103000/105000, 126000–132000, 132000–140000",
+        "records/loops/create-1792989369596/judge-1-1.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "cannot tell if sound is on or off from the screen",
+      "id": "option-sound-toggle-unreadable",
+      "drop": null,
+      "source": "play",
+      "where": "options",
+      "what": "tap_anchor lobby_options → panel opened with `Sound`, `Account` (user code shown), `About` and `Close`. The `Music` and `Sound effects` labels are dark text on the dark green placeholder `BUTTON` letters and are nearly unreadable; the toggles show an orange box with no on/off word",
+      "evidence": [
+        "captures/mvoswof415ef25-1792991729473.jpg",
+        "records/loops/create-1792989369596/play-1-1.md:32"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "`Music` and `Sound effects` labels are dark text on dark, partly covered by `BUTTON` placeholder pieces, and nearly unreadable",
+      "id": "option-sound-toggle-unreadable",
+      "drop": null,
+      "source": "play",
+      "where": "scene/lobby/lobby",
+      "what": "tap_anchor result_lobby, tap_anchor lobby_options → Options panel: Sound (`Music`, `Sound effects`), Account (user code, `Copy code`, `Get account deletion code`, `Withdraw`), About, `Close`",
+      "evidence": [
+        "captures/mvoswtk90867df-1792991793813.jpg",
+        "records/loops/create-1792989369596/play-1-2.md:23"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "all items from the guide present; the `Music` and `Sound effects` labels are covered by \"BUTTON\" art and are hard to read",
+      "id": "option-sound-toggle-unreadable",
+      "drop": null,
+      "source": "play",
+      "where": "scene/lobby",
+      "what": "tap_anchor lobby_options → options panel opens with Music, Sound effects, User code `8VJW-MVN2`, Copy code, Get account deletion code, Withdraw, Terms, Privacy, Licenses, Close",
+      "evidence": [
+        "captures/mvosx0myf9cddf-1792991810221.jpg",
+        "records/loops/create-1792989369596/play-1-3.md:29"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "data",
+      "why": "the measured reward interval is below the design.md target range",
+      "id": "reward-interval-short",
+      "drop": null,
+      "source": "check",
+      "where": "reward_interval_ms",
+      "what": "value 1002 out of 2000..30000",
+      "evidence": [
+        "records/loops/create-1792989369596/measure-1.json#reward_interval_ms"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "data",
+      "why": "the measured goal interval is below the design.md target range",
+      "id": "goal-interval-short",
+      "drop": null,
+      "source": "check",
+      "where": "goal_interval_ms",
+      "what": "value 11909 out of 15000..180000",
+      "evidence": [
+        "records/loops/create-1792989369596/measure-1.json#goal_interval_ms"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "`dir` value does not match the direction of the offset change (offset got more negative with dir 1 moving right, then rose with dir still 1). The block moved, so play was not blocked",
+      "id": "play-dir-state-wrong",
+      "drop": null,
+      "source": "play",
+      "where": "scene/play",
+      "what": "tap_anchor lobby_play, step mode → first block slid from the left at speed 700; `offset` ran from -384 down to -629, then turned back toward 0 while `dir` read 1 the whole time",
+      "evidence": [
+        "records/loops/create-1792989369596/play-1-3.md:18"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "The play guide tells agents to read the direction from `dir`; the shown value does not match the motion. Not visible on screen",
+      "id": "play-dir-state-wrong",
+      "drop": null,
+      "source": "judge",
+      "where": "play state (`content.play.dir`)",
+      "what": "`dir` stays `1` after the block bounces at offset 625 and moves left (offset 625→590→555→520)",
+      "evidence": [
+        "step log, play ms 97869–98094"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "They look like a partly drawn outline made in code, laid over the panels",
+      "id": "panel-edge-line-fragments",
+      "drop": null,
+      "source": "judge",
+      "where": "terms, result and pause panels",
+      "what": "Short white line fragments sit at the panel edges, not part of any drawn resource: a vertical stroke at the left edge, a dot or stroke at the right, and a dashed line under the score inset",
+      "evidence": [
+        "`mvoswiok48da09-1792991618919.jpg` (x≈500, y 450–625), `mvoswiok48da09-1792991976939.jpg` (x≈520, y 430–650; dashed y≈515), `mvoswiok48da09-1792992163249.jpg` (x≈580, y 505–575)"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "design",
+      "why": "There is no screen to match the `reward popup` presentation moment",
+      "id": "no-reward-popup",
+      "drop": null,
+      "source": "judge",
+      "where": "reward",
+      "what": "There is no reward popup screen; the reward is only the in-HUD `Perfect ×n` badge, ring and flash. The reference's reward moment has a panel, coins flying to the counter and a `+49` count-up",
+      "evidence": [
+        "captures `mvoswiok48da09-1792991717312.jpg`; ref video-2 126000–132000 ms"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "design",
+      "why": "Dropping too early is a miss, as the rules say. A first-time player has no warning that the first drop must wait for the block to reach the tower",
+      "id": "first-drop-too-early-miss",
+      "drop": null,
+      "source": "play",
+      "where": "scene/play/play",
+      "what": "tap_anchor result_again then key Space about 3s later → A new run starts. A Space at the start of the run (block still far off the tower) ends it as `Tower fell`, score 0, best stays 44",
+      "evidence": [
+        "captures/mvoswtk90867df-1792991783647.jpg",
+        "records/loops/create-1792989369596/play-1-2.md:22"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "correct. The title is `Tower fell` for a run ended by the player, which is the same as for a miss",
+      "id": "end-run-result-title",
+      "drop": null,
+      "source": "play",
+      "where": "play",
+      "what": "key Space, key P, tap_anchor pause_end → `End run` ended the run with score 1 and opened `Tower fell`, 0 perfect, streak 0, best 17",
+      "evidence": [
+        "captures/mvoswof415ef25-1792991724394.jpg",
+        "records/loops/create-1792989369596/play-1-1.md:30"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "the tail of the fall looks like a smear that lingers; the sliding block drawn on the left was cut by the `S` letter shapes of the background",
+      "id": "cut-piece-trail-lingers",
+      "drop": null,
+      "source": "play",
+      "where": "play",
+      "what": "none → tower of 6 blocks over a dark base; the view did not scroll yet. A ghost `BLOCK` trail of the cut piece stays faded on the right of the tower after a trim",
+      "evidence": [
+        "captures/mvoswof415ef25-1792991698561.jpg",
+        "records/loops/create-1792989369596/play-1-1.md:24"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "speed ramp is felt and readable; the sky did not visibly darken in 11 blocks; each step of 50 ms moved the game 75 ms (play ms 31476 -> 31551)",
+      "id": "step-advances-more-game-time",
+      "drop": null,
+      "source": "play",
+      "where": "scene/play",
+      "what": "repeated Space on offset near 0 → 11 blocks, score 22, 7 perfects, best streak 3, speed rose 700 -> 920; `Perfect ×1` badge under score; \"SKY\" backdrop stays the same color",
+      "evidence": [
+        "captures/mvosx0myf9cddf-1792991771737.jpg",
+        "records/loops/create-1792989369596/play-1-3.md:21"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "the first tap right after End run was lost; it was not retried",
+      "id": "result-tap-lost-while-opening",
+      "drop": null,
+      "source": "play",
+      "where": "scene/play",
+      "what": "key Escape, tap_anchor pause_end → `End run` ended the 0-point run and the result panel opened, the following `result_lobby` tap returned `anchor is not there or not visible` once (panel still opening)",
+      "evidence": [
+        "records/loops/create-1792989369596/play-1-3.md:27"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "`Agree to both items to continue` hint shows; `Confirm` is greyed until agreed. Placeholder art `BUTTON` letters show behind the `Terms of service` title and behind `Confirm`, so the text is hard to read",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "title",
+      "what": "none → terms popup shown on first screen",
+      "evidence": [
+        "captures/mvoswof415ef25-1792991621260.jpg",
+        "records/loops/create-1792989369596/play-1-1.md:18"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "the placeholder words are bigger than the real label `Play` and `Options`, so the screen looks unfinished; the buttons still read",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "lobby",
+      "what": "none → the lobby shows `Block Stack`, `Stack your first tower`, `Best 0`, `Options`, a demo tower and `Play`. The art is placeholder: a huge white `SKY` text behind everything, `BLOCK` text printed on every block, and the word `BUTTON` printed over `Play`",
+      "evidence": [
+        "captures/mvoswof415ef25-1792991629976.jpg",
+        "records/loops/create-1792989369596/play-1-1.md:20"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "feels good; the score and the best update immediately. The sliding block image is stretched and its `BLOCK` text is distorted and larger than the tower blocks",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "play",
+      "what": "key Space at offset -10 → perfect drop: score 2, `Perfect ×1` shown, best plate went 0 → 2 at once, the next block started from the right at offset 640, speed 720",
+      "evidence": [
+        "captures/mvoswof415ef25-1792991642923.jpg",
+        "records/loops/create-1792989369596/play-1-1.md:22"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "text over the placeholder art is hard to read, `Resume` is half hidden by orange `BUTTON` letters",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "play",
+      "what": "key P → pause popup opened in under 1s; the block, score and background dim. `ogw step` failed with `game time is paused`, as the guide says. `Paused` title is over placeholder `BUTTON` art, `End run`, `Resume` read well",
+      "evidence": [
+        "captures/mvoswof415ef25-1792991699787.jpg",
+        "records/loops/create-1792989369596/play-1-1.md:25"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "the numbers match the run. Placeholder `PANEL` and `BUTTON` letters overlap `Score`, `Perfect drops` and the title; the large score `17` sits on top of `PANEL` text",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "result",
+      "what": "none (about 1.5s after the miss) → result panel opened with `New best!`, score 17, `Best 17`, `Perfect drops 5`, `Best streak 4`, `Lobby` left and `Play again` right",
+      "evidence": [
+        "captures/mvoswof415ef25-1792991711307.jpg",
+        "records/loops/create-1792989369596/play-1-1.md:28"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "Placeholder art text is visible behind the labels, so the labels are cluttered",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "scene/title/title",
+      "what": "tap_anchor terms_agree_all → Terms popup shows. A pixel \"BUTTON\" placeholder image sits behind `Terms of service` and the `Agree to all` / `Confirm` rows",
+      "evidence": [
+        "captures/mvoswtk90867df-1792991630504.jpg",
+        "records/loops/create-1792989369596/play-1-2.md:12"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": null,
+      "why": "Placeholder sprites with their own words are shown as final art; `Play` is dark text over orange `BUTTON` letters and is hard to read",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "scene/lobby/lobby",
+      "what": "none → Lobby: `Block Stack`, `Stack your first tower`, Best 0. The tower is drawn as `BLOCK` labelled blocks, the backdrop as a huge `SKY` block-letter image, `Play` sits on a `BUTTON` image",
+      "evidence": [
+        "captures/mvoswtk90867df-1792991639008.jpg",
+        "records/loops/create-1792989369596/play-1-2.md:13"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "The HUD is clear. The `SKY` background letters are big and sit behind the sliding block and cross the badge",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "scene/play/play",
+      "what": "step → Score 44, `Perfect ×9` badge under it, best 44 at top right. Tower of `BLOCK` blocks with a faded `BLOCK` on the sliding block over the `SKY` letters",
+      "evidence": [
+        "captures/mvoswtk90867df-1792991753276.jpg",
+        "records/loops/create-1792989369596/play-1-2.md:17"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "Pause works. Both buttons sit on `BUTTON` placeholder images; `Resume` is dark text on orange letters and hard to read",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "scene/play/play",
+      "what": "key P → Pause popup `Paused` with `End run` and `Resume`. `ogw step` failed with \"game time is paused\" as the guide says",
+      "evidence": [
+        "captures/mvoswtk90867df-1792991758592.jpg",
+        "records/loops/create-1792989369596/play-1-2.md:18"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "The `PANEL` letters run through the `Perfect drops` text and the score number",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "scene/play/play",
+      "what": "wait → Result panel `New best!` with Score 44, Best 44, Perfect drops 9, Best streak 9, `Lobby`, `Play again`. A `PANEL` placeholder image shows through behind the score and the `Perfect drops` row",
+      "evidence": [
+        "captures/mvoswtk90867df-1792991774159.jpg",
+        "records/loops/create-1792989369596/play-1-2.md:21"
+      ]
+    },
+    {
+      "severity": null,
+      "owner": null,
+      "why": "none",
+      "id": null,
+      "drop": "no problem: the play agent reports that the log has no error",
+      "source": "play",
+      "where": "ogw log",
+      "what": "`no error log` → No errors in the log",
+      "evidence": [
+        "records/loops/create-1792989369596/play-1-2.md:24"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "label hard to read (e.g. `Terms of service` header and `Confirm` over the pixel text)",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "scene/title",
+      "what": "none → terms popup shown on first screen. Title and buttons are drawn over placeholder textures with \"BUTTON\" text baked in; the label overlaps it",
+      "evidence": [
+        "captures/mvosx0myf9cddf-1792991645621.jpg",
+        "records/loops/create-1792989369596/play-1-3.md:15"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "looks like unreplaced placeholder art; the text on top is harder to read",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "scene/lobby",
+      "what": "none → `Play` button has \"BUTTON\" art behind its label, `Options` has a faded \"BUTTON\" fragment, the tower demo blocks all read \"BLOCK\", and a huge white \"SKY\" sits behind the lobby",
+      "evidence": [
+        "captures/mvosx0myf9cddf-1792991655105.jpg",
+        "records/loops/create-1792989369596/play-1-3.md:17"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "works; label contrast is poor on the Resume button",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "scene/play",
+      "what": "key P → pause popup opens, game dimmed, `ogw step` fails with \"game time is paused\" as documented; `Paused` header, `End run` and `Resume` buttons have \"BUTTON\" art behind labels",
+      "evidence": [
+        "captures/mvosx0myf9cddf-1792991776826.jpg",
+        "records/loops/create-1792989369596/play-1-3.md:22"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": null,
+      "why": "numbers are readable; the \"PANEL\" text under the `Perfect drops` row and score looks like a leftover placeholder",
+      "id": null,
+      "drop": "every resource it refers to (placeholder BUTTON, SKY, BLOCK or PANEL art) is still requested in resources.csv",
+      "source": "play",
+      "where": "prefab/play/result_panel",
+      "what": "none → `New best!`, Score 22, Best 22, Perfect drops 7, Best streak 3, `Lobby` and `Play again`; \"PANEL\" and \"BUTTON\" art shows through behind `Score` and `Perfect drops` rows",
+      "evidence": [
+        "captures/mvosx0myf9cddf-1792991790910.jpg",
+        "records/loops/create-1792989369596/play-1-3.md:25"
+      ]
+    }
+  ],
+  "discarded": []
+}

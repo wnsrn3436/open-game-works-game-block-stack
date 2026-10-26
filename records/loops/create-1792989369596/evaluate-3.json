@@ -1,0 +1,41 @@
+{
+  "commit": "f32c4e5556ab888bd7be3e19ba1913ae0f0fda61",
+  "baseline": "43d406267e9646fbc21d3813c276c7a7e29440e0",
+  "plays": [
+    {
+      "result": "records/loops/create-1792989369596/play-3-1.md",
+      "instance": "mvou8r5d5e6bf1",
+      "platform": "macos",
+      "moment": null,
+      "status": "done"
+    },
+    {
+      "result": "records/loops/create-1792989369596/play-3-2.md",
+      "instance": "mvou8x24b8abd1",
+      "platform": "macos",
+      "moment": null,
+      "status": "done"
+    },
+    {
+      "result": "records/loops/create-1792989369596/play-3-3.md",
+      "instance": "mvou938328cf9b",
+      "platform": "macos",
+      "moment": null,
+      "status": "done"
+    }
+  ],
+  "judges": [
+    {
+      "kind": "main",
+      "result": "records/loops/create-1792989369596/judge-3-2.md",
+      "A": "f32c4e5556ab888bd7be3e19ba1913ae0f0fda61",
+      "B": "43d406267e9646fbc21d3813c276c7a7e29440e0",
+      "instanceSide": "A",
+      "omittedMoments": [],
+      "vsBaseline": "worse",
+      "vsReference": "fail",
+      "status": "done"
+    }
+  ],
+  "measure": "records/loops/create-1792989369596/measure-3.json"
+}

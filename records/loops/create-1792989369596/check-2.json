@@ -1,0 +1,148 @@
+{
+  "commit": "48c09b5274a06e264f0ce150a94268d55d516fd2",
+  "checks": [
+    {
+      "name": "regression test",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "static check",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "no blocker",
+      "platform": null,
+      "result": "fail",
+      "failures": [
+        {
+          "where": "step 1",
+          "message": "client main error log: 1792993402749\terror\tTweenCore\tplay_preset: definition check failed: change 0 of step 0 has a value that is not finite or out of range\tres://core/tween_core/tween_core.gd:436 _checked\\nres://core/tween_core/tween_core.gd:200 play_preset\\nres://features/play/play_result_panel.gd:68 on_opened\\nres://core/ui_core/ui_core.gd:1421 _show_view\\nres://core/ui_core/ui_core.gd:1262 _open_flow\\nres://core/ui_core/ui_core.gd:1391 _make_view\\nres://core/ui_core/call_waiter.gd:56 _finish\\nres://core/ui_core/call_waiter.gd:30 start_load\\nres://core/resource_core/resource_core.gd:210 load\\nres://core/resource_core/resource_core.gd:572 _run_loading",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-2/bot-playtest/client.log",
+            "records/loops/create-1792989369596/evidence/check-2/bot-playtest/server.log"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "full flow",
+      "platform": null,
+      "result": "fail",
+      "failures": [
+        {
+          "where": "step 1",
+          "message": "scenario stopped at step 1",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-2/bot-playtest/client.log",
+            "records/loops/create-1792989369596/evidence/check-2/bot-playtest/server.log"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "performance",
+      "platform": "macos",
+      "result": "unknown",
+      "failures": [
+        {
+          "where": "step 1",
+          "message": "scenario stopped: client main error log: 1792993403240\terror\tTweenCore\tplay_preset: definition check failed: change 0 of step 0 has a value that is not finite or out of range\tres://core/tween_core/tween_core.gd:436 _checked\\nres://core/tween_core/tween_core.gd:200 play_preset\\nres://features/play/play_result_panel.gd:68 on_opened\\nres://core/ui_core/ui_core.gd:1421 _show_view\\nres://core/ui_core/ui_core.gd:1262 _open_flow\\nres://core/ui_core/ui_core.gd:1391 _make_view\\nres://core/ui_core/call_waiter.gd:56 _finish\\nres://core/ui_core/call_waiter.gd:30 start_load\\nres://core/resource_core/resource_core.gd:210 load\\nres://core/resource_core/resource_core.gd:572 _run_loading",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-2/performance-macos/samples.json"
+          ]
+        }
+      ],
+      "warnings": [],
+      "hostLoad": {
+        "cpuMaxPercent": 19.7,
+        "memoryMaxPercent": 71.7,
+        "instancesMax": 3
+      }
+    },
+    {
+      "name": "UI quality",
+      "platform": "macos",
+      "result": "fail",
+      "failures": [
+        {
+          "where": "scene/play/play",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/Hud/ScorePlate: 86% one color in prefab/play/hud_panel (en, display_16_9, play.open_pause, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-2/ui-macos/0010-en-display_16_9-play.open_pause-1000.png",
+            "records/loops/create-1792989369596/evidence/check-2/ui-macos/0010-en-display_16_9-play.open_pause-1000.json"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "no placeholder",
+      "platform": null,
+      "result": "fail",
+      "failures": [
+        {
+          "where": "resource/resources.csv:2",
+          "message": "placeholder app_icon/main",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:3",
+          "message": "placeholder splash/main",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:4",
+          "message": "placeholder font/main",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:5",
+          "message": "placeholder image/ui_kit",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:6",
+          "message": "placeholder background/sky",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:11",
+          "message": "placeholder sfx/place",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:12",
+          "message": "placeholder sfx/perfect",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:13",
+          "message": "placeholder sfx/fail",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:14",
+          "message": "placeholder bgm/main",
+          "evidence": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "row simulation",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    }
+  ],
+  "gate": "fail"
+}

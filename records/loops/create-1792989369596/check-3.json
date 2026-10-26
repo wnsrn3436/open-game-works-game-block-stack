@@ -1,0 +1,116 @@
+{
+  "commit": "f32c4e5556ab888bd7be3e19ba1913ae0f0fda61",
+  "checks": [
+    {
+      "name": "regression test",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "static check",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "no blocker",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "full flow",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "performance",
+      "platform": "macos",
+      "result": "pass",
+      "failures": [],
+      "warnings": [],
+      "hostLoad": {
+        "cpuMaxPercent": 19.6,
+        "memoryMaxPercent": 79.8,
+        "instancesMax": 3
+      }
+    },
+    {
+      "name": "UI quality",
+      "platform": "macos",
+      "result": "fail",
+      "failures": [
+        {
+          "where": "scene/lobby/lobby",
+          "message": "low contrast UICore/Panel/SafeAreaRoot/LobbyPanel/Record: 1.88:1 in prefab/lobby/lobby_panel (en, macbook_air_13, lobby.open_lobby, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.png",
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.json"
+          ]
+        },
+        {
+          "where": "scene/title/title",
+          "message": "low contrast UICore/SceneUI/SceneCoreSafeArea/UI/Box/Title: 2.11:1 in scene/title/title (en, macbook_air_13, title.open_title, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0006-en-macbook_air_13-title.open_title-1000.png",
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0006-en-macbook_air_13-title.open_title-1000.json"
+          ]
+        },
+        {
+          "where": "scene/title/title",
+          "message": "low contrast UICore/SceneUI/SceneCoreSafeArea/UI/Box/Tagline: 2.26:1 in scene/title/title (en, macbook_air_13, title.open_title, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0006-en-macbook_air_13-title.open_title-1000.png",
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0006-en-macbook_air_13-title.open_title-1000.json"
+          ]
+        },
+        {
+          "where": "scene/lobby/lobby",
+          "message": "low contrast UICore/Panel/SafeAreaRoot/LobbyPanel/Record: 1.90:1 in prefab/lobby/lobby_panel (en, display_16_9, lobby.open_lobby, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.png",
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.json"
+          ]
+        },
+        {
+          "where": "scene/title/title",
+          "message": "low contrast UICore/SceneUI/SceneCoreSafeArea/UI/Box/Title: 2.07:1 in scene/title/title (en, display_16_9, title.open_title, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0012-en-display_16_9-title.open_title-1000.png",
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0012-en-display_16_9-title.open_title-1000.json"
+          ]
+        },
+        {
+          "where": "scene/title/title",
+          "message": "low contrast UICore/SceneUI/SceneCoreSafeArea/UI/Box/Tagline: 2.24:1 in scene/title/title (en, display_16_9, title.open_title, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0012-en-display_16_9-title.open_title-1000.png",
+            "records/loops/create-1792989369596/evidence/check-3/ui-macos/0012-en-display_16_9-title.open_title-1000.json"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "no placeholder",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "row simulation",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    }
+  ],
+  "gate": "pass"
+}

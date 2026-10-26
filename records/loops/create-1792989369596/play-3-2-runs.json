@@ -1,0 +1,244 @@
+{
+  "runs": [
+    {
+      "command": "ogw input --help",
+      "startedAt": 1792993871089,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou8x24b8abd1",
+      "startedAt": 1792993874491,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvou8x24b8abd1 --summary",
+      "startedAt": 1792993874816,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 tap_anchor terms_agree_all",
+      "startedAt": 1792993879687,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou8x24b8abd1",
+      "startedAt": 1792993880000,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 tap_anchor terms_confirm",
+      "startedAt": 1792993880323,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou8x24b8abd1",
+      "startedAt": 1792993882665,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 tap_anchor lobby_options",
+      "startedAt": 1792993889616,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou8x24b8abd1",
+      "startedAt": 1792993890962,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 tap_anchor option_close",
+      "startedAt": 1792993891282,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvou8x24b8abd1 --summary",
+      "startedAt": 1792993892606,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step-mode mvou8x24b8abd1 on",
+      "startedAt": 1792993896262,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 tap_anchor lobby_play",
+      "startedAt": 1792993896553,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou8x24b8abd1 50 --count 4 --capture --state",
+      "startedAt": 1792993899868,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou8x24b8abd1 50 --count 13 --state",
+      "startedAt": 1792993905206,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou8x24b8abd1 50 --state",
+      "startedAt": 1792993909678,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 key Space",
+      "startedAt": 1792993910051,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou8x24b8abd1 50 --count 1 --capture --state",
+      "startedAt": 1792993910367,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou8x24b8abd1 50 --count 17 --state",
+      "startedAt": 1792993914165,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou8x24b8abd1 50 --count 3 --state",
+      "startedAt": 1792993918592,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 key Space",
+      "startedAt": 1792993919111,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou8x24b8abd1 50 --capture --state",
+      "startedAt": 1792993919423,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou8x24b8abd1 50 --count 2 --state",
+      "startedAt": 1792993927544,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 key Space",
+      "startedAt": 1792993927992,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou8x24b8abd1 50 --count 6 --capture --state",
+      "startedAt": 1792993928307,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou8x24b8abd1 50 --count 6 --capture",
+      "startedAt": 1792993932461,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step-mode mvou8x24b8abd1 off",
+      "startedAt": 1792993933360,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou8x24b8abd1",
+      "startedAt": 1792993934670,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 tap_anchor result_again",
+      "startedAt": 1792993941512,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou8x24b8abd1",
+      "startedAt": 1792993944847,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 key P",
+      "startedAt": 1792993945146,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou8x24b8abd1",
+      "startedAt": 1792993946476,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 tap_anchor pause_resume",
+      "startedAt": 1792993946790,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 key P",
+      "startedAt": 1792993948128,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 tap_anchor pause_end",
+      "startedAt": 1792993949454,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou8x24b8abd1",
+      "startedAt": 1792993951788,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou8x24b8abd1 tap_anchor result_lobby",
+      "startedAt": 1792993952095,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou8x24b8abd1",
+      "startedAt": 1792993955436,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvou8x24b8abd1 --summary",
+      "startedAt": 1792993955745,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvou8x24b8abd1",
+      "startedAt": 1792993956022,
+      "exitCode": 0,
+      "summary": null
+    }
+  ]
+}

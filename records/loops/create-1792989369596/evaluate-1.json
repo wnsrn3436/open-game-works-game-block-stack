@@ -1,0 +1,41 @@
+{
+  "commit": "43d406267e9646fbc21d3813c276c7a7e29440e0",
+  "baseline": null,
+  "plays": [
+    {
+      "result": "records/loops/create-1792989369596/play-1-1.md",
+      "instance": "mvoswof415ef25",
+      "platform": "macos",
+      "moment": null,
+      "status": "done"
+    },
+    {
+      "result": "records/loops/create-1792989369596/play-1-2.md",
+      "instance": "mvoswtk90867df",
+      "platform": "macos",
+      "moment": null,
+      "status": "done"
+    },
+    {
+      "result": "records/loops/create-1792989369596/play-1-3.md",
+      "instance": "mvosx0myf9cddf",
+      "platform": "macos",
+      "moment": null,
+      "status": "done"
+    }
+  ],
+  "judges": [
+    {
+      "kind": "main",
+      "result": "records/loops/create-1792989369596/judge-1-1.md",
+      "A": "43d406267e9646fbc21d3813c276c7a7e29440e0",
+      "B": null,
+      "instanceSide": "A",
+      "omittedMoments": [],
+      "vsBaseline": null,
+      "vsReference": "fail",
+      "status": "done"
+    }
+  ],
+  "measure": "records/loops/create-1792989369596/measure-1.json"
+}

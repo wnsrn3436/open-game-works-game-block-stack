@@ -1833,6 +1833,17 @@
         "web"
       ],
       "modules": []
+    },
+    {
+      "name": "font/main",
+      "version": "",
+      "license": "OFL-1.1",
+      "url": "https://github.com/google/fonts/blob/b38c5c93af322c45f633e17ac440ec1e6c94d489/ofl/notosans/NotoSans%5Bwdth%2Cwght%5D.ttf",
+      "notice": "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)",
+      "platforms": [
+        "macos"
+      ],
+      "modules": []
     }
   ],
   "texts": {

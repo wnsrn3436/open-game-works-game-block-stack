@@ -1,0 +1,3052 @@
+{
+  "runs": [
+    {
+      "command": "ogw input --help",
+      "startedAt": 1792991614866,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09 --summary",
+      "startedAt": 1792991618275,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswiok48da09",
+      "startedAt": 1792991618755,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvoswiok48da09",
+      "startedAt": 1792991619258,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 tap_anchor terms_agree_all",
+      "startedAt": 1792991628030,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 tap_anchor terms_confirm",
+      "startedAt": 1792991628550,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09 --summary",
+      "startedAt": 1792991628916,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswiok48da09",
+      "startedAt": 1792991629319,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09 --summary",
+      "startedAt": 1792991635639,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswiok48da09",
+      "startedAt": 1792991635940,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswiok48da09 --video 2000",
+      "startedAt": 1792991642908,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw frames input/reference-video-2.mp4 --every 2000 --from 132000 --to 140000",
+      "startedAt": 1792991658967,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw frames input/reference-video-1.mp4 --every 1000 --from 14000 --to 44000",
+      "startedAt": 1792991672283,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw frames input/reference-video-1.mp4 --every 1000 --from 59000 --to 68000",
+      "startedAt": 1792991673165,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09 --summary",
+      "startedAt": 1792991698206,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step-mode mvoswiok48da09 on",
+      "startedAt": 1792991698590,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 tap_anchor lobby_play",
+      "startedAt": 1792991698937,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --count 40 --state",
+      "startedAt": 1792991699293,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --count 15 --state",
+      "startedAt": 1792991710987,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991716813,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --count 6 --capture",
+      "startedAt": 1792991717203,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry --summary",
+      "startedAt": 1792991724976,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09 --summary",
+      "startedAt": 1792991725309,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991745394,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991745812,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991746208,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991746597,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991747301,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991747700,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991748090,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991748498,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991748882,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991749271,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991749655,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991750040,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991750433,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991750827,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991751199,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991751574,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991751895,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991752267,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991752642,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991753022,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991753393,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991753768,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991754140,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991754516,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991754890,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991755281,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991755655,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991756026,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991756411,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991756814,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991757208,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991757607,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991758004,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991758399,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991758795,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991759341,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991759771,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991760136,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991760570,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991761018,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991761439,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991761864,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991762314,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991762816,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991763251,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991763685,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991764127,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991764557,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991765016,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991765480,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991765883,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991766263,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991766637,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991767007,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991767383,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991767831,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991768227,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991768625,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991769036,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991769434,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991769823,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991770212,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991770587,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991770966,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991771352,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991771734,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991772115,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991772490,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991772887,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991773252,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991773608,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991773969,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991774347,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991774697,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991775052,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991775417,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991775864,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991776233,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991776601,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991776914,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991777399,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991777841,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991778233,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991778605,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991778973,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991779339,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991779716,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991780093,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991780464,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991780834,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991781201,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991781584,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991781964,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991782407,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991783173,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991783671,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991784078,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991784467,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991784857,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991785193,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991785577,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991785967,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991786355,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991786733,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991787115,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991787500,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991787883,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991788277,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991788664,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991789068,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991789468,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991789859,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991790244,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991790629,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991791020,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991791401,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991791776,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991792160,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991792552,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991792877,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991793259,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991793661,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991794059,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991794444,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991794831,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991795224,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991795636,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991796027,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991796418,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991796798,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991797181,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991797582,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991797996,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991798387,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991798789,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991799207,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991799592,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991799979,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991800313,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991800710,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991801100,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991801486,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991801881,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991802276,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991802662,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991803042,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991803427,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991803812,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991804207,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991804600,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991805013,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991805424,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991805819,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991806209,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991806597,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991806981,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991807367,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991807699,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09",
+      "startedAt": 1792991815861,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09",
+      "startedAt": 1792991819661,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991832510,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991832891,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991833275,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991833655,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991834030,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991834401,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991834777,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991835157,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991835533,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991835909,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991836288,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991836657,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991837034,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991837406,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991837786,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --count 8 --capture",
+      "startedAt": 1792991838104,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991855633,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991856005,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991856377,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991856740,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991857102,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991857466,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991857832,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991858203,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991858572,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991858951,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991859255,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991859631,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991860012,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991860390,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991860764,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991861127,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991861501,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991861873,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991862241,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991862607,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991862977,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991863342,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991863711,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991864080,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991864443,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991864809,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991865177,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991865551,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991865857,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991866225,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991866601,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991866977,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991867350,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991867721,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991868082,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991868456,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991868811,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991869158,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991869645,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991870005,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991870365,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991870805,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991871340,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991871720,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991872084,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991872435,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991872738,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991873097,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991873442,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991873794,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991874149,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991874510,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991875009,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991875355,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991875721,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991876072,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991876414,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991876755,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991877101,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991877457,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991877808,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991878147,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991878490,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991878773,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991879114,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991879454,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991879796,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991880140,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991880483,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991880828,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991881172,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991881514,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991881863,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991882210,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991882558,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991882914,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991883262,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991883619,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991883976,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991884334,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991884634,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991884976,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991885326,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991885669,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991886287,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991886661,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991887022,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991887381,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991887744,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991888303,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991888687,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991889056,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991889425,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991889805,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991890181,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991890555,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991890927,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991891261,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991907337,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991907729,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991908103,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991908483,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991908860,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991909223,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991909602,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991910014,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991910418,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991910803,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991911186,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991911575,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991911959,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991912347,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991912696,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991913039,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991913388,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991913741,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991914097,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991914458,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991914855,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991915258,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991915722,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991916185,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991916595,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991916996,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991917388,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991917769,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991918156,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991918530,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991918921,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991919294,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991919670,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991920050,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991920422,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991920786,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991921155,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991921492,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991921818,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991922150,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991922476,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991922797,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991923130,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991923473,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991923817,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991924166,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991924517,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991924843,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991925237,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991925651,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991926044,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991926408,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991926807,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991927183,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991927574,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991927966,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991928346,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991928730,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991929115,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991929497,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991929884,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991930256,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991930601,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991930984,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991931376,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991931746,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991932099,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991932447,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991932800,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991933228,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991933588,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991933907,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991934253,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991934643,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991935036,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991935409,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991935793,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991936176,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991936553,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991936937,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991937316,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991937699,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991938077,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991938462,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991938858,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991939248,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991939595,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991939942,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991940306,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991940663,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991941020,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991941382,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991941734,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991942069,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 10 --state",
+      "startedAt": 1792991942386,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991952074,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991952456,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792991952836,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792991953217,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 100 --count 20 --capture",
+      "startedAt": 1792991953536,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09 --summary",
+      "startedAt": 1792991962949,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 100 --count 15",
+      "startedAt": 1792991974719,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswiok48da09",
+      "startedAt": 1792991976909,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 100 --count 20 --capture",
+      "startedAt": 1792991993004,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw frames input/reference-video-2.mp4 --every 1000 --from 38000 --to 47000",
+      "startedAt": 1792992017446,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw frames input/reference-video-2.mp4 --every 1000 --from 100000 --to 108000",
+      "startedAt": 1792992018362,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw frames input/reference-video-2.mp4 --every 1000 --from 126000 --to 132000",
+      "startedAt": 1792992019024,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw frames input/reference-video-2.mp4 --every 2000 --from 44000 --to 47000",
+      "startedAt": 1792992065342,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw frames input/reference-video-2.mp4 --every 2000 --from 136000 --to 139000",
+      "startedAt": 1792992065855,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw frames input/reference-video-2.mp4 --every 2000 --from 104000 --to 107000",
+      "startedAt": 1792992066381,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09 --summary",
+      "startedAt": 1792992110476,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 tap_anchor result_again",
+      "startedAt": 1792992110784,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 100 --count 12 --capture",
+      "startedAt": 1792992111110,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09 --summary",
+      "startedAt": 1792992121121,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 100 --count 20 --capture",
+      "startedAt": 1792992151827,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key P",
+      "startedAt": 1792992162902,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswiok48da09",
+      "startedAt": 1792992163215,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 mouse_down left 1148 594",
+      "startedAt": 1792992175376,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswiok48da09",
+      "startedAt": 1792992175678,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 mouse_up left 1148 594",
+      "startedAt": 1792992176005,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09",
+      "startedAt": 1792992176314,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09 --summary",
+      "startedAt": 1792992194880,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvoswiok48da09",
+      "startedAt": 1792992195173,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry compare mvoswiok48da09 mvoswiok48da09 --guide-a input/play-guide-A.md --guide-b input/play-guide-A.md",
+      "startedAt": 1792992201355,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry compare mvoswiok48da09 mvoswiok48da09 --guide-a input/play-guide-A.md --guide-b input/play-guide-A.md --from-a 93990 --to-a 123990 --from-b 93990 --to-b 123990",
+      "startedAt": 1792992219116,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry compare mvoswiok48da09 mvoswiok48da09 --guide-a input/play-guide-A.md --guide-b input/play-guide-A.md --from-a 93990 --to-a 123990 --from-b 93990 --to-b 123990",
+      "startedAt": 1792992219423,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry compare mvoswiok48da09 mvoswiok48da09 --guide-a input/play-guide-A.md --guide-b input/play-guide-A.md --from-a 97000 --to-a 106000 --from-b 97000 --to-b 106000",
+      "startedAt": 1792992231572,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry compare mvoswiok48da09 mvoswiok48da09 --guide-a input/play-guide-A.md --guide-b input/play-guide-A.md --from-a 112000 --to-a 210000 --from-b 112000 --to-b 210000",
+      "startedAt": 1792992231896,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry compare mvoswiok48da09 mvoswiok48da09 --guide-a input/play-guide-A.md --guide-b input/play-guide-A.md --from-a 95000 --to-a 400000 --from-b 95000 --to-b 400000",
+      "startedAt": 1792992232206,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry compare mvoswiok48da09 mvoswiok48da09 --guide-a input/play-guide-A.md --guide-b input/play-guide-A.md --from-a 0 --to-a 9999999 --from-b 0 --to-b 9999999",
+      "startedAt": 1792992232521,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992252806,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992253173,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992253575,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992254243,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992254618,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992254968,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992255315,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992255673,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992256852,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992257220,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992257583,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992258005,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992258403,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992258805,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992259176,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992259648,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992260220,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992260738,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992261079,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992261428,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992261837,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992262305,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992262650,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992262997,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992263340,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992263689,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992264036,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792992264380,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992264721,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992265263,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992265670,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992266019,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992266360,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992266705,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992267062,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992267407,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992267762,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992268106,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992268448,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992268798,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992269144,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992269489,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992269829,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992270170,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992270515,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992270861,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992271204,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992271546,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792992271888,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992272180,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992272523,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992272870,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992273211,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992273554,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992273911,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992274273,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992275288,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992276216,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992276592,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992276976,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992277360,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992277737,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992278090,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992278440,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992278798,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992279170,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992279528,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992279893,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992280250,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792992280626,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992280933,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992281355,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --state",
+      "startedAt": 1792992281723,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 key Space",
+      "startedAt": 1792992282093,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --count 60",
+      "startedAt": 1792992282399,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvoswiok48da09 tap_anchor result_again",
+      "startedAt": 1792992284273,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --count 10",
+      "startedAt": 1792992284590,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry compare mvoswiok48da09 mvoswiok48da09 --guide-a input/play-guide-A.md --guide-b input/play-guide-A.md",
+      "startedAt": 1792992285641,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvoswiok48da09",
+      "startedAt": 1792992285939,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvoswiok48da09 50 --count 1 --state",
+      "startedAt": 1792992329220,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvoswiok48da09",
+      "startedAt": 1792992329574,
+      "exitCode": 0,
+      "summary": null
+    }
+  ]
+}
