@@ -15,7 +15,7 @@ and was played and checked on macOS during development. The loop stopped at its 
 record (`records/loops/create-1792989369596/end.md`) lists the defects still open. It has not been built for release
 yet: the `build` command has not been run on it.
 
-A [60-second video](https://github.com/wnsrn3436/open-game-works-core/blob/main/.github/media/block-stack-promo.mp4)
+A [60-second video](https://github.com/user-attachments/assets/9cf4f284-32c5-4f82-9c3f-13d17cbc12ec)
 shows the loop from the request to the game in main.
 
 ## What it is
