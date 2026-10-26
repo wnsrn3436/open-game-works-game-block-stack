@@ -20,7 +20,7 @@ prefab/common/terms_popup,"Terms consent popup of a new user: agree to all, the 
 prefab/common/system_popup,"Frame of every system popup (confirms, notices, errors) in the panel art.",,final,,,,,894031d3a289de51f686c9ebc168ea4676e3bb66473be779fba6f7c476a0e70a,,,
 prefab/common/loading_icon,Loading icon of server requests: a gold block that turns.,,final,,,,,9e6436168f1cda11383c7a79c2b047e133955f810c45e828010caa29040fe198,,,
 prefab/lobby/lobby_panel,"Root panel of the lobby: title, record line, options, best score plate, demo tower and Play.",,final,,,,,9e8c68328b49c845ef2d43bf44f9199028382ab65f80722f96ab3d83d1c4c8e3,,,
-prefab/lobby/option_panel,"Option panel: sound toggles, user code, account deletion, withdrawal, terms, privacy and licenses.",,final,,,,,75e4faf3e82cf2bb58449dc720fb88ab58d1d097eb4a965e715845c5bdc1e5bd,,,
+prefab/lobby/option_panel,"Option panel: sound toggles, user code, account deletion, withdrawal, terms, privacy and licenses.",,final,,,,,2ee6abd8b590a1a5955a51759be5eac7da1ef724d652afcf50da367f9c8de212,,,
 prefab/play/hud_panel,"Root panel of the run: score, streak badge, best score plate, getting ready text and the drop hint.",,final,,,,,33c0c4a1bd5614ff9b401d311f6adcac8039c7014d754eb7ea486be4b38d6aaf,,,
 prefab/play/pause_popup,Pause popup of the run: End run and Resume.,,final,,,,,3be07029e8d2797a61ab9d86411c3ca3be2eec7029e64c6bb1e202c004e2d22f,,,
 prefab/play/result_panel,"Result panel of a run: title, counting score, best score, perfect drops, best streak, Lobby and Play again.",,final,,,,,02a165216128d571113eb274581da10548c16415bdb8c893d1c742c9301849e4,,,

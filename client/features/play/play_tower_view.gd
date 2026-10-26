@@ -69,7 +69,7 @@ func draw_drop(tower: PlayTower) -> void:
 
 
 func _borrow_block() -> PlayBlock:
-	var handle: Vector4i = PoolCore.borrow(ResourceKey.PREFAB__PLAY__BLOCK, _scope)
+	var handle: Vector4i = PoolCore.borrow(ResourceKey.PREFAB__PLAY__BLOCK, _scope, self)
 	var node: Node = PoolCore.get_instance(handle)
 	if node == null:
 		return null
@@ -84,7 +84,7 @@ func _borrow_block() -> PlayBlock:
 
 
 func _fall(left: int, width: int, bottom: float, color: Color, to_left: bool) -> void:
-	var handle: Vector4i = PoolCore.borrow(ResourceKey.PREFAB__PLAY__SCRAP, _scope)
+	var handle: Vector4i = PoolCore.borrow(ResourceKey.PREFAB__PLAY__SCRAP, _scope, self)
 	var node: Node = PoolCore.get_instance(handle)
 	if node == null:
 		return
