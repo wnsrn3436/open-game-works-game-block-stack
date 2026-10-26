@@ -1,0 +1,525 @@
+{
+  "runs": [
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack image/ui_kit",
+      "startedAt": 1792991576514,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack app_icon/main",
+      "startedAt": 1792991576791,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack splash/main",
+      "startedAt": 1792991577067,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack font/main",
+      "startedAt": 1792991577350,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack background/sky",
+      "startedAt": 1792991577616,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack sfx/place",
+      "startedAt": 1792991577886,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack sfx/perfect",
+      "startedAt": 1792991578154,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack sfx/fail",
+      "startedAt": 1792991578423,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack bgm/main",
+      "startedAt": 1792991578695,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation list font-catalog",
+      "startedAt": 1792991582536,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation list font-catalog",
+      "startedAt": 1792991585424,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation run moss-sfx --game open-game-works-game-block-stack --key sfx/place --prompt /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place1.txt --out /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place1",
+      "startedAt": 1792991601472,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvoswlz10fe298"
+    },
+    {
+      "command": "ogw generation run moss-sfx --game open-game-works-game-block-stack --key sfx/place --prompt /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place2.txt --out /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place2",
+      "startedAt": 1792991601739,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvoswm6gfbbc3c"
+    },
+    {
+      "command": "ogw generation run moss-sfx --game open-game-works-game-block-stack --key sfx/place --prompt /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place3.txt --out /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place3",
+      "startedAt": 1792991602008,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvoswmdy070e0d"
+    },
+    {
+      "command": "ogw generation run moss-sfx --game open-game-works-game-block-stack --key sfx/perfect --prompt /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/perfect.txt --out /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/perfect",
+      "startedAt": 1792991602290,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvoswmlrabf3df"
+    },
+    {
+      "command": "ogw generation run moss-sfx --game open-game-works-game-block-stack --key sfx/fail --prompt /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/fail.txt --out /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/fail",
+      "startedAt": 1792991602571,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvoswmtkc0a662"
+    },
+    {
+      "command": "ogw generation run ace-step --game open-game-works-game-block-stack --key bgm/main --prompt /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/bgm.txt --out /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/bgm",
+      "startedAt": 1792991602886,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvoswn2bd21ac1"
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack image/ui_kit --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/ui_kit/image.png",
+      "startedAt": 1792991683322,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack app_icon/main --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/app_icon/image.png",
+      "startedAt": 1792991684504,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack splash/main --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/splash/image.png",
+      "startedAt": 1792991685506,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack background/sky --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/sky/image.png",
+      "startedAt": 1792991686845,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack font/main --method font-catalog --file /Users/jungu/projects/coggs/.ogw/generation/font-catalog/git/0/ofl/notosans/NotoSans[wdth,wght].ttf",
+      "startedAt": 1792991688690,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw job wait mvoswlz10fe298",
+      "startedAt": 1792991692560,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw job wait mvoswm6gfbbc3c",
+      "startedAt": 1792991747911,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw job wait mvoswmdy070e0d",
+      "startedAt": 1792991875629,
+      "exitCode": 75,
+      "summary": null
+    },
+    {
+      "command": "ogw job wait mvoswmlrabf3df",
+      "startedAt": 1792992175857,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw job wait mvoswmtkc0a662",
+      "startedAt": 1792992176053,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw job wait mvoswn2bd21ac1",
+      "startedAt": 1792992176242,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation run moss-sfx --game open-game-works-game-block-stack --key sfx/place --prompt /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place1b.txt --out /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place1b",
+      "startedAt": 1792992331292,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvotc93l108a2f"
+    },
+    {
+      "command": "ogw generation run moss-sfx --game open-game-works-game-block-stack --key sfx/perfect --prompt /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/perfect2.txt --out /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/perfect2",
+      "startedAt": 1792992331590,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvotc9br900f95"
+    },
+    {
+      "command": "ogw generation run moss-sfx --game open-game-works-game-block-stack --key sfx/fail --prompt /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/fail2.txt --out /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/fail2",
+      "startedAt": 1792992331885,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvotc9k7d5d96c"
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792992339320,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance start open-game-works-game-block-stack --commit d6ed9306fb4b370d2cf877e8db59cf39386ecb90",
+      "startedAt": 1792992352919,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvotcpsl2cae26"
+    },
+    {
+      "command": "ogw job wait mvotcpsl2cae26",
+      "startedAt": 1792992355302,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvotcq2y22413c",
+      "startedAt": 1792992366642,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotcq2y22413c list_commands",
+      "startedAt": 1792992366880,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotcq2y22413c title.open_title",
+      "startedAt": 1792992374224,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvotcq2y22413c",
+      "startedAt": 1792992375991,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotcq2y22413c play.open_play",
+      "startedAt": 1792992376229,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvotcq2y22413c",
+      "startedAt": 1792992376934,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotcq2y22413c restart",
+      "startedAt": 1792992377142,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvotcq2y22413c",
+      "startedAt": 1792992377337,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvotcq2y22413c",
+      "startedAt": 1792992377547,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvotcq2y22413c",
+      "startedAt": 1792992377765,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvotcq2y22413c",
+      "startedAt": 1792992377978,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw job wait mvoswn2bd21ac1",
+      "startedAt": 1792992396504,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw job wait mvotc93l108a2f",
+      "startedAt": 1792992396703,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw job wait mvotc9br900f95",
+      "startedAt": 1792992616408,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw job wait mvotc9k7d5d96c",
+      "startedAt": 1792992752622,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack sfx/place --method moss-sfx --bus Sfx --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place2/sound.wav --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place3/sound.wav --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/place1b/sound.wav",
+      "startedAt": 1792992803462,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack sfx/perfect --method moss-sfx --bus Sfx --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/perfect2/sound.wav",
+      "startedAt": 1792992804292,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack sfx/fail --method moss-sfx --bus Sfx --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/fail_trim/sound.wav",
+      "startedAt": 1792992804971,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack bgm/main --method ace-step --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/bgm/music.wav --music /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvta20b0daf/32516dff-1400-4dad-a326-9369cccf796a/scratchpad/work/bgm/music.json",
+      "startedAt": 1792992805645,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792992815457,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance stop mvotcq2y22413c",
+      "startedAt": 1792992824964,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance start open-game-works-game-block-stack --commit c047d887971a69f195859ed89482445ea902afcd",
+      "startedAt": 1792992825426,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvotmudsf015a7"
+    },
+    {
+      "command": "ogw job wait mvotmudsf015a7",
+      "startedAt": 1792992829017,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input --help",
+      "startedAt": 1792992835769,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 get_sound",
+      "startedAt": 1792992838600,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 play.open_play",
+      "startedAt": 1792992838782,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvotmuoj0cfea9 key Space",
+      "startedAt": 1792992841029,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 get_sound",
+      "startedAt": 1792992841220,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 play.state",
+      "startedAt": 1792992841415,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvotmuoj0cfea9",
+      "startedAt": 1792992846883,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvotmuoj0cfea9",
+      "startedAt": 1792992847056,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvotmuoj0cfea9",
+      "startedAt": 1792992849592,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 play.open_play",
+      "startedAt": 1792992856417,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step-mode mvotmuoj0cfea9 on",
+      "startedAt": 1792992857143,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 play.state",
+      "startedAt": 1792992857316,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvotmuoj0cfea9 305",
+      "startedAt": 1792992860761,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 play.state",
+      "startedAt": 1792992861277,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvotmuoj0cfea9 key Space",
+      "startedAt": 1792992861469,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvotmuoj0cfea9 50",
+      "startedAt": 1792992861669,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 get_sound",
+      "startedAt": 1792992861924,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 play.state",
+      "startedAt": 1792992862122,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvotmuoj0cfea9 400",
+      "startedAt": 1792992865529,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 play.state",
+      "startedAt": 1792992866154,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvotmuoj0cfea9 1280",
+      "startedAt": 1792992870526,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 play.state",
+      "startedAt": 1792992872040,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvotmuoj0cfea9 key Space",
+      "startedAt": 1792992872225,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvotmuoj0cfea9 50",
+      "startedAt": 1792992872409,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvotmuoj0cfea9 get_sound",
+      "startedAt": 1792992872675,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvotmuoj0cfea9",
+      "startedAt": 1792992872861,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance stop mvotmuoj0cfea9",
+      "startedAt": 1792992892392,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792992893113,
+      "exitCode": 0,
+      "summary": null
+    }
+  ]
+}

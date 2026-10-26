@@ -1,0 +1,243 @@
+{
+  "runs": [
+    {
+      "command": "ogw data open-game-works-game-block-stack",
+      "startedAt": 1792993611274,
+      "exitCode": 0,
+      "summary": {
+        "glossaryMissing": []
+      }
+    },
+    {
+      "command": "ogw contract open-game-works-game-block-stack",
+      "startedAt": 1792993611911,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw data open-game-works-game-block-stack",
+      "startedAt": 1792993614936,
+      "exitCode": 0,
+      "summary": {
+        "glossaryMissing": []
+      }
+    },
+    {
+      "command": "ogw contract open-game-works-game-block-stack",
+      "startedAt": 1792993617284,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --static",
+      "startedAt": 1792993619638,
+      "exitCode": 1,
+      "summary": {
+        "checks": [
+          {
+            "name": "static check",
+            "result": "fail"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw resource sync open-game-works-game-block-stack",
+      "startedAt": 1792993629084,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --static",
+      "startedAt": 1792993629591,
+      "exitCode": 0,
+      "summary": {
+        "checks": [
+          {
+            "name": "static check",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --regression",
+      "startedAt": 1792993634423,
+      "exitCode": 0,
+      "summary": {
+        "checks": [
+          {
+            "name": "regression test",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw instance start open-game-works-game-block-stack",
+      "startedAt": 1792993642926,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvou4d6415d69b"
+    },
+    {
+      "command": "ogw job wait mvou4d6415d69b",
+      "startedAt": 1792993644554,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvou4dfife17ec list_commands",
+      "startedAt": 1792993648333,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvou4dfife17ec list_commands",
+      "startedAt": 1792993650733,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvou4dfife17ec play.open_pause",
+      "startedAt": 1792993650900,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou4dfife17ec",
+      "startedAt": 1792993651861,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvou4dfife17ec list_ui",
+      "startedAt": 1792993659596,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance stop mvou4dfife17ec",
+      "startedAt": 1792993697571,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance start open-game-works-game-block-stack",
+      "startedAt": 1792993697830,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvou5jj7f74bd8"
+    },
+    {
+      "command": "ogw job wait mvou5jj7f74bd8",
+      "startedAt": 1792993699564,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvou5jsp19dddc play.open_pause",
+      "startedAt": 1792993705396,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou5jsp19dddc",
+      "startedAt": 1792993706353,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvou5jsp19dddc list_ui",
+      "startedAt": 1792993706539,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvou5jsp19dddc play.open_play",
+      "startedAt": 1792993707019,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou5jsp19dddc",
+      "startedAt": 1792993707721,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvou5jsp19dddc list_ui",
+      "startedAt": 1792993707903,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvou5jsp19dddc play.open_result",
+      "startedAt": 1792993713793,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou5jsp19dddc",
+      "startedAt": 1792993714821,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvou5jsp19dddc list_ui",
+      "startedAt": 1792993715007,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvou5jsp19dddc",
+      "startedAt": 1792993715499,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou5jsp19dddc --video 2000",
+      "startedAt": 1792993718515,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance stop mvou5jsp19dddc",
+      "startedAt": 1792993736080,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --static",
+      "startedAt": 1792993736479,
+      "exitCode": 0,
+      "summary": {
+        "checks": [
+          {
+            "name": "static check",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --regression",
+      "startedAt": 1792993742362,
+      "exitCode": 0,
+      "summary": {
+        "checks": [
+          {
+            "name": "regression test",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792993764289,
+      "exitCode": 0,
+      "summary": null
+    }
+  ]
+}

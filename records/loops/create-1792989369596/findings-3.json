@@ -1,0 +1,244 @@
+{
+  "findings": [
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "title and lobby text over the final sky art is below the contrast the UI quality check needs",
+      "id": "title-lobby-text-low-contrast",
+      "drop": null,
+      "source": "check",
+      "where": "scene/lobby/lobby",
+      "what": "low contrast UICore/Panel/SafeAreaRoot/LobbyPanel/Record: 1.88:1 in prefab/lobby/lobby_panel (en, macbook_air_13, lobby.open_lobby, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-3.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.png",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "title and lobby text over the final sky art is below the contrast the UI quality check needs",
+      "id": "title-lobby-text-low-contrast",
+      "drop": null,
+      "source": "check",
+      "where": "scene/title/title",
+      "what": "low contrast UICore/SceneUI/SceneCoreSafeArea/UI/Box/Title: 2.11:1 in scene/title/title (en, macbook_air_13, title.open_title, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-3.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0006-en-macbook_air_13-title.open_title-1000.png",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0006-en-macbook_air_13-title.open_title-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "title and lobby text over the final sky art is below the contrast the UI quality check needs",
+      "id": "title-lobby-text-low-contrast",
+      "drop": null,
+      "source": "check",
+      "where": "scene/title/title",
+      "what": "low contrast UICore/SceneUI/SceneCoreSafeArea/UI/Box/Tagline: 2.26:1 in scene/title/title (en, macbook_air_13, title.open_title, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-3.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0006-en-macbook_air_13-title.open_title-1000.png",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0006-en-macbook_air_13-title.open_title-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "title and lobby text over the final sky art is below the contrast the UI quality check needs",
+      "id": "title-lobby-text-low-contrast",
+      "drop": null,
+      "source": "check",
+      "where": "scene/lobby/lobby",
+      "what": "low contrast UICore/Panel/SafeAreaRoot/LobbyPanel/Record: 1.90:1 in prefab/lobby/lobby_panel (en, display_16_9, lobby.open_lobby, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-3.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.png",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "title and lobby text over the final sky art is below the contrast the UI quality check needs",
+      "id": "title-lobby-text-low-contrast",
+      "drop": null,
+      "source": "check",
+      "where": "scene/title/title",
+      "what": "low contrast UICore/SceneUI/SceneCoreSafeArea/UI/Box/Title: 2.07:1 in scene/title/title (en, display_16_9, title.open_title, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-3.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0012-en-display_16_9-title.open_title-1000.png",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0012-en-display_16_9-title.open_title-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "title and lobby text over the final sky art is below the contrast the UI quality check needs",
+      "id": "title-lobby-text-low-contrast",
+      "drop": null,
+      "source": "check",
+      "where": "scene/title/title",
+      "what": "low contrast UICore/SceneUI/SceneCoreSafeArea/UI/Box/Tagline: 2.24:1 in scene/title/title (en, display_16_9, title.open_title, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-3.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0012-en-display_16_9-title.open_title-1000.png",
+        "records/loops/create-1792989369596/evidence/check-3/ui-macos/0012-en-display_16_9-title.open_title-1000.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "worse than the reference game, so `vs reference` is `fail`",
+      "id": "presentation-layers-below-reference",
+      "drop": null,
+      "source": "judge",
+      "where": "vs reference: presentation",
+      "what": "lobby: largest plate is the `Play` button / best plate at 2 layers against 4 for the reference `Area 1` plate (frame, inset, progress bar, chest ornament); idle motion 2 (demo block, Play pulse) against 3 or more (fountain water, sparkle trail, flags); press feedback 1 against unknown. hud: `Score` plate 2 layers (plate, tab) against 3 (bar frame, `Moves` header tab, cream inset); idle motion not counted for either. reward popup: A has none (the reward is the `Perfect ×n` text badge, 0 layers) against 5 (frame, gold border, header band, inset, `Well Done!` ribbon + star-on-pillow ornament). result: 6 layers (frame, header band, 2 insets, 2 dividers) against 5; idle motion 1 (`Play again` pulse) against 1 (sparkles); press feedback 1 (button darkens) against unknown.",
+      "evidence": [
+        "A captures `mvouoyk73c63d6-1792994640822-video/frame-00000..24`, `-1792994763127.jpg`, `-1792994871092.jpg`, `-1792994901571.jpg`; ref frames 132000–138000, 100000–106000, 126000–130500, 38000–45500",
+        "records/loops/create-1792989369596/judge-3-2.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "Reference lobby: `Area 1` plate with 4 layers and 3 or more idle motions (fountain, sparkle trail, flags)",
+      "id": "presentation-layers-below-reference",
+      "drop": null,
+      "source": "judge",
+      "where": "lobby",
+      "what": "The largest plate (best plate / `Play` button) has 2 layers, and the lobby has 2 idle motions.",
+      "evidence": [
+        "`mvouoyk73c63d6-1792994640822-video` frames 0/8/16/24; ref 132000–138000"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "Reference HUD: top bar frame, `Moves` header tab and cream inset (3 layers)",
+      "id": "presentation-layers-below-reference",
+      "drop": null,
+      "source": "judge",
+      "where": "hud",
+      "what": "The `Score` plate has 2 layers (plate, tab), and the best plate is a single rounded box with a crown.",
+      "evidence": [
+        "`mvouoyk73c63d6-1792994763127.jpg`; ref 100000–106000"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "design",
+      "why": "`presentation` count: 0 layers against 5 for the Royal Match `Well Done!` popup (frame, gold border, header band, inset, ribbon + star ornament)",
+      "id": "no-reward-popup",
+      "drop": null,
+      "source": "judge",
+      "where": "reward popup",
+      "what": "There is no reward popup. A perfect drop or a new best shows only the `Perfect ×n` text badge or the `New best!` band on the result panel.",
+      "evidence": [
+        "`mvouoyk73c63d6-1792994763127.jpg`; ref 126000–130500"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "data",
+      "why": "the measured reward interval is below the design.md target range",
+      "id": "reward-interval-short",
+      "drop": null,
+      "source": "check",
+      "where": "reward_interval_ms",
+      "what": "value 1002 out of 2000..30000",
+      "evidence": [
+        "records/loops/create-1792989369596/measure-3.json#reward_interval_ms"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "slight overlap with the badge",
+      "id": "pause-popup-covers-badge",
+      "drop": null,
+      "source": "play",
+      "where": "scene/play/play",
+      "what": "key P → The `Paused` popup shows `End run` and `Resume`, and the score plate and badge dim. The popup's top edge covers the lower part of the `Perfect ×2` badge text",
+      "evidence": [
+        "captures/mvou8r5d5e6bf1-1792993948198.jpg",
+        "records/loops/create-1792989369596/play-3-1.md:22"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "The button covers part of the tower; looks slightly crowded but readable",
+      "id": "lobby-play-button-overlaps-base",
+      "drop": null,
+      "source": "play",
+      "where": "scene/lobby/lobby",
+      "what": "none → Lobby shows title `Block Stack`, `Stack your first tower`, Best 0, demo tower, `Play`. The top of the `Play` button overlaps the bottom of the dark tower base slab",
+      "evidence": [
+        "captures/mvou938328cf9b-1792993887072.jpg",
+        "records/loops/create-1792989369596/play-3-3.md:16"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "Wait before the result may feel a little long; the timing is not certain because of the play ms vs game time difference",
+      "id": "result-delay-long",
+      "drop": null,
+      "source": "play",
+      "where": "scene/play/play",
+      "what": "wait → Result panel opened; Goal mark about 3100 play ms after the miss drop (about 2s of game time at the 1.5x play ms rate), longer than the guide's about 1000ms",
+      "evidence": [
+        "captures/mvou938328cf9b-1792993909545.jpg",
+        "records/loops/create-1792989369596/play-3-3.md:20"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "client content",
+      "why": "in the second run the first block comes from the right, not the left as the guide says",
+      "id": "play-guide-first-block-side",
+      "drop": null,
+      "source": "play",
+      "where": "scene/play/play",
+      "what": "tap_anchor result_again → A new run started: Score 0, `Best 29`, hint `Click or press Space when the block is over the tower`, and the block slid in from the right",
+      "evidence": [
+        "captures/mvou8r5d5e6bf1-1792994064896.jpg",
+        "records/loops/create-1792989369596/play-3-1.md:26"
+      ]
+    },
+    {
+      "severity": "minor",
+      "owner": "resource",
+      "why": "Reference Stack blocks carry a carved pattern and shading, with particle dots in the sky",
+      "id": "flat-tower-blocks",
+      "drop": null,
+      "source": "judge",
+      "where": "play",
+      "what": "The tower blocks are flat single-color rounded rectangles, and the base slab is a plain dark box.",
+      "evidence": [
+        "`mvouoyk73c63d6-1792994856059.jpg`; ref 14000–44000"
+      ]
+    },
+    {
+      "severity": null,
+      "owner": null,
+      "why": "-10",
+      "id": null,
+      "drop": "no problem: a drop at offset -10 is outside the perfect tolerance and is trimmed, as the rules say",
+      "source": "play",
+      "where": "scene/play/play",
+      "what": "key Space at offset -10 → Block landed trimmed: width 440 to 430, score 1 (+1, no perfect, since",
+      "evidence": [
+        "feedback matches the guide",
+        "records/loops/create-1792989369596/play-3-2.md:20"
+      ]
+    }
+  ],
+  "discarded": []
+}

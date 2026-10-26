@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://common/common_loading_icon.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://resource/nine_slice/block.png" id="2_block"]
+
+[node name="LoadingIcon" type="Control" node_paths=PackedStringArray("block")]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 140.0
+offset_bottom = 140.0
+mouse_filter = 2
+script = ExtResource("1_script")
+block = NodePath("Block")
+
+[node name="Block" type="NinePatchRect" parent="."]
+self_modulate = Color(1, 0.714, 0.153, 1)
+layout_mode = 0
+offset_left = 30.0
+offset_top = 30.0
+offset_right = 110.0
+offset_bottom = 110.0
+mouse_filter = 2
+texture = ExtResource("2_block")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24

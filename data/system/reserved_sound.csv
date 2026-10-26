@@ -1,0 +1,8 @@
+,
+All,Client
+id(key),reskey
+id,sound
+[ui_button_click],sfx/place
+[block_place],sfx/place
+[block_perfect],sfx/perfect
+[block_miss],sfx/fail

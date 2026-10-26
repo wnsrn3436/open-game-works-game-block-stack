@@ -1,0 +1,327 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://features/lobby/lobby_option_panel.gd" id="1_script"]
+[ext_resource type="Script" path="res://core/ui_core/ui_button.gd" id="2_button"]
+[ext_resource type="Script" path="res://core/ui_core/ui_anchor.gd" id="3_anchor"]
+[ext_resource type="Script" path="res://common/common_press_bounce.gd" id="4_bounce"]
+
+[node name="OptionPanel" type="Control" node_paths=PackedStringArray("initial_focus", "title_label", "sound_header", "music_toggle", "sounds_toggle", "account_header", "user_code_label", "copy_user_code_button", "deletion_button", "deletion_label", "copy_code_button", "copy_url_button", "withdraw_button", "legal_header", "terms_button", "privacy_button", "licenses_button", "close_button", "music_click", "sounds_click", "copy_user_code_click", "deletion_click", "copy_code_click", "copy_url_click", "withdraw_click", "terms_click", "privacy_click", "licenses_click", "close_click")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+dim = true
+open_tween = "tween/common/panel_in"
+close_tween = "tween/common/panel_out"
+initial_focus = NodePath("Frame/Box/Bottom/Close")
+title_label = NodePath("Frame/Box/Header/Title")
+sound_header = NodePath("Frame/Box/Columns/Left/Sound/List/Header")
+music_toggle = NodePath("Frame/Box/Columns/Left/Sound/List/Music")
+sounds_toggle = NodePath("Frame/Box/Columns/Left/Sound/List/Sounds")
+account_header = NodePath("Frame/Box/Columns/Right/Account/List/Header")
+user_code_label = NodePath("Frame/Box/Columns/Right/Account/List/UserCode")
+copy_user_code_button = NodePath("Frame/Box/Columns/Right/Account/List/CopyUserCode")
+deletion_button = NodePath("Frame/Box/Columns/Right/Account/List/Deletion")
+deletion_label = NodePath("Frame/Box/Columns/Right/Account/List/DeletionInfo")
+copy_code_button = NodePath("Frame/Box/Columns/Right/Account/List/Copies/CopyCode")
+copy_url_button = NodePath("Frame/Box/Columns/Right/Account/List/Copies/CopyUrl")
+withdraw_button = NodePath("Frame/Box/Columns/Right/Account/List/Withdraw")
+legal_header = NodePath("Frame/Box/Columns/Left/About/List/Header")
+terms_button = NodePath("Frame/Box/Columns/Left/About/List/Terms")
+privacy_button = NodePath("Frame/Box/Columns/Left/About/List/Privacy")
+licenses_button = NodePath("Frame/Box/Columns/Left/About/List/Licenses")
+close_button = NodePath("Frame/Box/Bottom/Close")
+music_click = NodePath("Frame/Box/Columns/Left/Sound/List/Music/UIButton")
+sounds_click = NodePath("Frame/Box/Columns/Left/Sound/List/Sounds/UIButton")
+copy_user_code_click = NodePath("Frame/Box/Columns/Right/Account/List/CopyUserCode/UIButton")
+deletion_click = NodePath("Frame/Box/Columns/Right/Account/List/Deletion/UIButton")
+copy_code_click = NodePath("Frame/Box/Columns/Right/Account/List/Copies/CopyCode/UIButton")
+copy_url_click = NodePath("Frame/Box/Columns/Right/Account/List/Copies/CopyUrl/UIButton")
+withdraw_click = NodePath("Frame/Box/Columns/Right/Account/List/Withdraw/UIButton")
+terms_click = NodePath("Frame/Box/Columns/Left/About/List/Terms/UIButton")
+privacy_click = NodePath("Frame/Box/Columns/Left/About/List/Privacy/UIButton")
+licenses_click = NodePath("Frame/Box/Columns/Left/About/List/Licenses/UIButton")
+close_click = NodePath("Frame/Box/Bottom/Close/UIButton")
+
+[node name="Frame" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -760.0
+offset_top = -450.0
+offset_right = 760.0
+offset_bottom = 450.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"PanelFrame"
+
+[node name="Box" type="VBoxContainer" parent="Frame"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 44.0
+offset_top = 40.0
+offset_right = -44.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Header" type="PanelContainer" parent="Frame/Box"]
+custom_minimum_size = Vector2(0, 104)
+layout_mode = 2
+theme_type_variation = &"HeaderBand"
+
+[node name="Title" type="Label" parent="Frame/Box/Header"]
+layout_mode = 2
+theme_type_variation = &"PanelTitleLabel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Columns" type="HBoxContainer" parent="Frame/Box"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Left" type="VBoxContainer" parent="Frame/Box/Columns"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Right" type="VBoxContainer" parent="Frame/Box/Columns"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Sound" type="PanelContainer" parent="Frame/Box/Columns/Left"]
+layout_mode = 2
+theme_type_variation = &"Inset"
+
+[node name="List" type="VBoxContainer" parent="Frame/Box/Columns/Left/Sound"]
+layout_mode = 2
+
+[node name="Header" type="Label" parent="Frame/Box/Columns/Left/Sound/List"]
+layout_mode = 2
+theme_type_variation = &"CaptionLabel"
+
+[node name="Music" type="CheckBox" parent="Frame/Box/Columns/Left/Sound/List"]
+custom_minimum_size = Vector2(0, 88)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="UIButton" type="Node" parent="Frame/Box/Columns/Left/Sound/List/Music"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Columns/Left/Sound/List/Music"]
+script = ExtResource("3_anchor")
+anchor_name = "option_music"
+
+[node name="Sounds" type="CheckBox" parent="Frame/Box/Columns/Left/Sound/List"]
+custom_minimum_size = Vector2(0, 88)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="UIButton" type="Node" parent="Frame/Box/Columns/Left/Sound/List/Sounds"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Columns/Left/Sound/List/Sounds"]
+script = ExtResource("3_anchor")
+anchor_name = "option_sounds"
+
+[node name="About" type="PanelContainer" parent="Frame/Box/Columns/Left"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"Inset"
+
+[node name="List" type="VBoxContainer" parent="Frame/Box/Columns/Left/About"]
+layout_mode = 2
+
+[node name="Header" type="Label" parent="Frame/Box/Columns/Left/About/List"]
+layout_mode = 2
+theme_type_variation = &"CaptionLabel"
+
+[node name="Terms" type="Button" parent="Frame/Box/Columns/Left/About/List"]
+custom_minimum_size = Vector2(0, 88)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonSecondary"
+
+[node name="UIButton" type="Node" parent="Frame/Box/Columns/Left/About/List/Terms"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Columns/Left/About/List/Terms"]
+script = ExtResource("3_anchor")
+anchor_name = "option_terms"
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Columns/Left/About/List/Terms"]
+script = ExtResource("4_bounce")
+
+[node name="Privacy" type="Button" parent="Frame/Box/Columns/Left/About/List"]
+custom_minimum_size = Vector2(0, 88)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonSecondary"
+
+[node name="UIButton" type="Node" parent="Frame/Box/Columns/Left/About/List/Privacy"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Columns/Left/About/List/Privacy"]
+script = ExtResource("3_anchor")
+anchor_name = "option_privacy"
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Columns/Left/About/List/Privacy"]
+script = ExtResource("4_bounce")
+
+[node name="Licenses" type="Button" parent="Frame/Box/Columns/Left/About/List"]
+custom_minimum_size = Vector2(0, 88)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonSecondary"
+
+[node name="UIButton" type="Node" parent="Frame/Box/Columns/Left/About/List/Licenses"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Columns/Left/About/List/Licenses"]
+script = ExtResource("3_anchor")
+anchor_name = "option_licenses"
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Columns/Left/About/List/Licenses"]
+script = ExtResource("4_bounce")
+
+[node name="Account" type="PanelContainer" parent="Frame/Box/Columns/Right"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"Inset"
+
+[node name="List" type="VBoxContainer" parent="Frame/Box/Columns/Right/Account"]
+layout_mode = 2
+
+[node name="Header" type="Label" parent="Frame/Box/Columns/Right/Account/List"]
+layout_mode = 2
+theme_type_variation = &"CaptionLabel"
+
+[node name="UserCode" type="Label" parent="Frame/Box/Columns/Right/Account/List"]
+layout_mode = 2
+theme_type_variation = &"BodyLabel"
+autowrap_mode = 3
+
+[node name="CopyUserCode" type="Button" parent="Frame/Box/Columns/Right/Account/List"]
+custom_minimum_size = Vector2(0, 88)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonSecondary"
+
+[node name="UIButton" type="Node" parent="Frame/Box/Columns/Right/Account/List/CopyUserCode"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Columns/Right/Account/List/CopyUserCode"]
+script = ExtResource("3_anchor")
+anchor_name = "option_copy_user_code"
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Columns/Right/Account/List/CopyUserCode"]
+script = ExtResource("4_bounce")
+
+[node name="Divider1" type="HSeparator" parent="Frame/Box/Columns/Right/Account/List"]
+layout_mode = 2
+theme_type_variation = &"Divider"
+
+[node name="Deletion" type="Button" parent="Frame/Box/Columns/Right/Account/List"]
+custom_minimum_size = Vector2(0, 88)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonSecondary"
+
+[node name="UIButton" type="Node" parent="Frame/Box/Columns/Right/Account/List/Deletion"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Columns/Right/Account/List/Deletion"]
+script = ExtResource("3_anchor")
+anchor_name = "option_deletion"
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Columns/Right/Account/List/Deletion"]
+script = ExtResource("4_bounce")
+
+[node name="DeletionInfo" type="Label" parent="Frame/Box/Columns/Right/Account/List"]
+visible = false
+layout_mode = 2
+theme_type_variation = &"CaptionLabel"
+autowrap_mode = 3
+
+[node name="Copies" type="HBoxContainer" parent="Frame/Box/Columns/Right/Account/List"]
+layout_mode = 2
+
+[node name="CopyCode" type="Button" parent="Frame/Box/Columns/Right/Account/List/Copies"]
+custom_minimum_size = Vector2(0, 88)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonSecondary"
+visible = false
+
+[node name="UIButton" type="Node" parent="Frame/Box/Columns/Right/Account/List/Copies/CopyCode"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Columns/Right/Account/List/Copies/CopyCode"]
+script = ExtResource("3_anchor")
+anchor_name = "option_copy_code"
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Columns/Right/Account/List/Copies/CopyCode"]
+script = ExtResource("4_bounce")
+
+[node name="CopyUrl" type="Button" parent="Frame/Box/Columns/Right/Account/List/Copies"]
+custom_minimum_size = Vector2(0, 88)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonSecondary"
+visible = false
+
+[node name="UIButton" type="Node" parent="Frame/Box/Columns/Right/Account/List/Copies/CopyUrl"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Columns/Right/Account/List/Copies/CopyUrl"]
+script = ExtResource("3_anchor")
+anchor_name = "option_copy_url"
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Columns/Right/Account/List/Copies/CopyUrl"]
+script = ExtResource("4_bounce")
+
+[node name="Divider2" type="HSeparator" parent="Frame/Box/Columns/Right/Account/List"]
+layout_mode = 2
+theme_type_variation = &"Divider"
+
+[node name="Withdraw" type="Button" parent="Frame/Box/Columns/Right/Account/List"]
+custom_minimum_size = Vector2(0, 88)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonSecondary"
+
+[node name="UIButton" type="Node" parent="Frame/Box/Columns/Right/Account/List/Withdraw"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Columns/Right/Account/List/Withdraw"]
+script = ExtResource("3_anchor")
+anchor_name = "option_withdraw"
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Columns/Right/Account/List/Withdraw"]
+script = ExtResource("4_bounce")
+
+[node name="Bottom" type="HBoxContainer" parent="Frame/Box"]
+layout_mode = 2
+alignment = 2
+
+[node name="Close" type="Button" parent="Frame/Box/Bottom"]
+custom_minimum_size = Vector2(420, 104)
+layout_mode = 2
+theme_type_variation = &"ButtonPrimary"
+
+[node name="UIButton" type="Node" parent="Frame/Box/Bottom/Close"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Bottom/Close"]
+script = ExtResource("3_anchor")
+anchor_name = "option_close"
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Bottom/Close"]
+script = ExtResource("4_bounce")

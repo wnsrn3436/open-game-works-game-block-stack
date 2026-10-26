@@ -1,0 +1,126 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://features/play/play_hud_panel.gd" id="1_script"]
+
+[node name="Hud" type="Control" node_paths=PackedStringArray("score_label", "streak_label", "best_caption", "best_label", "best_icon", "ready_label", "hint_label")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_script")
+back_policy = 2
+modal = false
+score_label = NodePath("Top/Score")
+streak_label = NodePath("Top/Streak")
+best_caption = NodePath("BestPlate/Row/Texts/Caption")
+best_label = NodePath("BestPlate/Row/Texts/Value")
+best_icon = NodePath("BestPlate/Row/Icon")
+ready_label = NodePath("Ready")
+hint_label = NodePath("Hint")
+
+[node name="Top" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -480.0
+offset_top = 28.0
+offset_right = 480.0
+offset_bottom = 268.0
+grow_horizontal = 2
+mouse_filter = 2
+alignment = 0
+
+[node name="Score" type="Label" parent="Top"]
+layout_mode = 2
+theme_type_variation = &"NumberLabel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Streak" type="Label" parent="Top"]
+visible = false
+layout_mode = 2
+theme_type_variation = &"StreakLabel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BestPlate" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -330.0
+offset_top = 36.0
+offset_right = -40.0
+offset_bottom = 148.0
+grow_horizontal = 0
+mouse_filter = 2
+theme_type_variation = &"HudPlate"
+
+[node name="Row" type="HBoxContainer" parent="BestPlate"]
+layout_mode = 2
+mouse_filter = 2
+alignment = 1
+
+[node name="Icon" type="TextureRect" parent="BestPlate/Row"]
+custom_minimum_size = Vector2(76, 76)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Texts" type="VBoxContainer" parent="BestPlate/Row"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+alignment = 1
+
+[node name="Caption" type="Label" parent="BestPlate/Row/Texts"]
+layout_mode = 2
+theme_type_variation = &"CaptionLabel"
+horizontal_alignment = 1
+
+[node name="Value" type="Label" parent="BestPlate/Row/Texts"]
+layout_mode = 2
+theme_type_variation = &"StatLabel"
+horizontal_alignment = 1
+
+[node name="Ready" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -500.0
+offset_top = -40.0
+offset_right = 500.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_type_variation = &"HintLabel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Hint" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -700.0
+offset_top = -130.0
+offset_right = 700.0
+offset_bottom = -60.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_type_variation = &"HintLabel"
+horizontal_alignment = 1
+vertical_alignment = 1

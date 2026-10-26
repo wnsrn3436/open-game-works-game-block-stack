@@ -127,5 +127,11 @@
     "trackingRequest": false,
     "version": 1
   },
-  "loopIterationLimit": 3
+  "loopIterationLimit": 3,
+  "core": {
+    "LocalizationCore.headingFontWeight": 800,
+    "LocalizationCore.bodyFontWeight": 500,
+    "UICore.systemPopupResource": "prefab/common/system_popup",
+    "UICore.loadingIconResource": "prefab/common/loading_icon"
+  }
 }

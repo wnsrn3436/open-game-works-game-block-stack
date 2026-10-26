@@ -1,0 +1,262 @@
+{
+  "commit": "43d406267e9646fbc21d3813c276c7a7e29440e0",
+  "checks": [
+    {
+      "name": "regression test",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "static check",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "no blocker",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "full flow",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    },
+    {
+      "name": "performance",
+      "platform": "macos",
+      "result": "pass",
+      "failures": [],
+      "warnings": [],
+      "hostLoad": {
+        "cpuMaxPercent": 35.9,
+        "memoryMaxPercent": 89.1,
+        "instancesMax": 3
+      }
+    },
+    {
+      "name": "UI quality",
+      "platform": "macos",
+      "result": "fail",
+      "failures": [
+        {
+          "where": "scene/lobby/lobby",
+          "message": "overlap UICore/Panel/SafeAreaRoot/LobbyPanel/Top/Title UICore/Panel/SafeAreaRoot/LobbyPanel/Options in prefab/lobby/lobby_panel (en, macbook_air_13, lobby.open_lobby, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.json"
+          ]
+        },
+        {
+          "where": "scene/lobby/lobby",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/LobbyPanel/Top: 100% one color in prefab/lobby/lobby_panel (en, macbook_air_13, lobby.open_lobby, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.json"
+          ]
+        },
+        {
+          "where": "scene/lobby/lobby",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/LobbyPanel/BestPlate: 100% one color in prefab/lobby/lobby_panel (en, macbook_air_13, lobby.open_lobby, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0001-en-macbook_air_13-lobby.open_lobby-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/Hud/Top: 100% one color in prefab/play/hud_panel (en, macbook_air_13, play.open_play, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0003-en-macbook_air_13-play.open_play-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0003-en-macbook_air_13-play.open_play-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/Hud/BestPlate: 100% one color in prefab/play/hud_panel (en, macbook_air_13, play.open_play, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0003-en-macbook_air_13-play.open_play-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0003-en-macbook_air_13-play.open_play-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "low contrast UICore/Panel/SafeAreaRoot/Hud/Top/Score: 2.94:1 in prefab/play/hud_panel (en, macbook_air_13, play.open_pause, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "low contrast UICore/Panel/SafeAreaRoot/Hud/Hint: 2.94:1 in prefab/play/hud_panel (en, macbook_air_13, play.open_pause, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/Hud/Top: 100% one color in prefab/play/hud_panel (en, macbook_air_13, play.open_pause, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/Hud/BestPlate: 100% one color in prefab/play/hud_panel (en, macbook_air_13, play.open_pause, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0004-en-macbook_air_13-play.open_pause-1000.json"
+          ]
+        },
+        {
+          "where": "scene/lobby/lobby",
+          "message": "overlap UICore/Panel/SafeAreaRoot/LobbyPanel/Top/Title UICore/Panel/SafeAreaRoot/LobbyPanel/Options in prefab/lobby/lobby_panel (en, display_16_9, lobby.open_lobby, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.json"
+          ]
+        },
+        {
+          "where": "scene/lobby/lobby",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/LobbyPanel/BestPlate: 100% one color in prefab/lobby/lobby_panel (en, display_16_9, lobby.open_lobby, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0007-en-display_16_9-lobby.open_lobby-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/Hud/Top: 100% one color in prefab/play/hud_panel (en, display_16_9, play.open_play, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0009-en-display_16_9-play.open_play-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0009-en-display_16_9-play.open_play-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/Hud/BestPlate: 100% one color in prefab/play/hud_panel (en, display_16_9, play.open_play, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0009-en-display_16_9-play.open_play-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0009-en-display_16_9-play.open_play-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "low contrast UICore/Panel/SafeAreaRoot/Hud/Top/Score: 2.94:1 in prefab/play/hud_panel (en, display_16_9, play.open_pause, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/Hud/Top: 100% one color in prefab/play/hud_panel (en, display_16_9, play.open_pause, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.json"
+          ]
+        },
+        {
+          "where": "scene/play/play",
+          "message": "flat panel UICore/Panel/SafeAreaRoot/Hud/BestPlate: 100% one color in prefab/play/hud_panel (en, display_16_9, play.open_pause, text scale 1000)",
+          "evidence": [
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.png",
+            "records/loops/create-1792989369596/evidence/check-1/ui-macos/0010-en-display_16_9-play.open_pause-1000.json"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "no placeholder",
+      "platform": null,
+      "result": "fail",
+      "failures": [
+        {
+          "where": "resource/resources.csv:2",
+          "message": "placeholder app_icon/main",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:3",
+          "message": "placeholder splash/main",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:4",
+          "message": "placeholder font/main",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:5",
+          "message": "placeholder image/ui_kit",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:6",
+          "message": "placeholder background/sky",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:7",
+          "message": "placeholder nine_slice/block",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:8",
+          "message": "placeholder nine_slice/ui/panel",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:9",
+          "message": "placeholder nine_slice/ui/button",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:10",
+          "message": "placeholder icon/best",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:11",
+          "message": "placeholder sfx/place",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:12",
+          "message": "placeholder sfx/perfect",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:13",
+          "message": "placeholder sfx/fail",
+          "evidence": []
+        },
+        {
+          "where": "resource/resources.csv:14",
+          "message": "placeholder bgm/main",
+          "evidence": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "row simulation",
+      "platform": null,
+      "result": "pass",
+      "failures": [],
+      "warnings": []
+    }
+  ],
+  "gate": "pass"
+}

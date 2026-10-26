@@ -1,0 +1,8 @@
+syntax = "proto3";
+package game;
+
+enum GameError {
+  GAME_ERROR_UNSPECIFIED = 0;
+  // `StartPlaySession`: the `level_id` is not 0. A run has no level target.
+  GAME_ERROR_LEVEL_NOT_FOUND = 1001;
+}

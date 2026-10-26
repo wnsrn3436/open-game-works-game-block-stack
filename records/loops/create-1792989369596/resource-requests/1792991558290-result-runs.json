@@ -1,0 +1,312 @@
+{
+  "runs": [
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack nine_slice/block",
+      "startedAt": 1792991580865,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack nine_slice/ui/panel",
+      "startedAt": 1792991581133,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack nine_slice/ui/button",
+      "startedAt": 1792991581412,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generation methods open-game-works-game-block-stack icon/best",
+      "startedAt": 1792991581680,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack nine_slice/block --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvtaod4cbaa/29efaa3c-e86a-4e5f-af18-265c3e928d41/scratchpad/res/block2/ns.png",
+      "startedAt": 1792991903051,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack nine_slice/ui/panel --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvtaod4cbaa/29efaa3c-e86a-4e5f-af18-265c3e928d41/scratchpad/res/panel/ns.png",
+      "startedAt": 1792991903757,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack nine_slice/ui/button --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvtaod4cbaa/29efaa3c-e86a-4e5f-af18-265c3e928d41/scratchpad/res/button2/ns.png",
+      "startedAt": 1792991904346,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack icon/best --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvtaod4cbaa/29efaa3c-e86a-4e5f-af18-265c3e928d41/scratchpad/res/best/image.png",
+      "startedAt": 1792991904942,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792991908855,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance start open-game-works-game-block-stack --commit 82b45dd86cd1f08ce26e95011e2202a6653f2c12",
+      "startedAt": 1792991923384,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvot3id1d9cc40"
+    },
+    {
+      "command": "ogw job wait mvot3id1d9cc40",
+      "startedAt": 1792991925129,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvot3iox1f8e79 get_state",
+      "startedAt": 1792991935944,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvot3iox1f8e79 list_commands",
+      "startedAt": 1792991936180,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvot3iox1f8e79",
+      "startedAt": 1792991939045,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvot3iox1f8e79 play.open_play",
+      "startedAt": 1792991939300,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvot3iox1f8e79 play.state",
+      "startedAt": 1792991940036,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot3iox1f8e79 tap 960 540",
+      "startedAt": 1792991940280,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot3iox1f8e79 tap 960 540",
+      "startedAt": 1792991940502,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot3iox1f8e79 tap 960 540",
+      "startedAt": 1792991940733,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot3iox1f8e79 tap 960 540",
+      "startedAt": 1792991940946,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot3iox1f8e79 tap 960 540",
+      "startedAt": 1792991941171,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvot3iox1f8e79",
+      "startedAt": 1792991941401,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance stop mvot3iox1f8e79",
+      "startedAt": 1792991996662,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack nine_slice/block --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvtaod4cbaa/29efaa3c-e86a-4e5f-af18-265c3e928d41/scratchpad/res/block2/flat.png",
+      "startedAt": 1792991997183,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack nine_slice/ui/panel --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvtaod4cbaa/29efaa3c-e86a-4e5f-af18-265c3e928d41/scratchpad/res/panel/flat.png",
+      "startedAt": 1792991997833,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack nine_slice/ui/button --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvtaod4cbaa/29efaa3c-e86a-4e5f-af18-265c3e928d41/scratchpad/res/button2/flat.png",
+      "startedAt": 1792991998418,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource finalize open-game-works-game-block-stack icon/best --method sprite-gen-codex --file /private/tmp/claude-501/-Users-jungu-projects-coggs-worktrees-open-game-works-game-block-stack-agent-mvosvtaod4cbaa/29efaa3c-e86a-4e5f-af18-265c3e928d41/scratchpad/res/best/image.png",
+      "startedAt": 1792991998988,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792992000085,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance start open-game-works-game-block-stack --commit 03cd303b863c8fed5063992d7a070f90bea6e579",
+      "startedAt": 1792992009500,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvot5ct5d66bc9"
+    },
+    {
+      "command": "ogw job wait mvot5ct5d66bc9",
+      "startedAt": 1792992011256,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvot5d5c57cf12",
+      "startedAt": 1792992022526,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvot5d5c57cf12 lobby.open_option",
+      "startedAt": 1792992022737,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvot5d5c57cf12",
+      "startedAt": 1792992023185,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvot5d5c57cf12 play.open_play",
+      "startedAt": 1792992023399,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot5d5c57cf12 tap 960 540",
+      "startedAt": 1792992024109,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot5d5c57cf12 tap 960 540",
+      "startedAt": 1792992024308,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot5d5c57cf12 tap 960 540",
+      "startedAt": 1792992024509,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot5d5c57cf12 tap 960 540",
+      "startedAt": 1792992024741,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot5d5c57cf12 tap 960 540",
+      "startedAt": 1792992024957,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot5d5c57cf12 tap 960 540",
+      "startedAt": 1792992025295,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvot5d5c57cf12",
+      "startedAt": 1792992025502,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvot5d5c57cf12 play.open_pause",
+      "startedAt": 1792992025720,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvot5d5c57cf12",
+      "startedAt": 1792992026678,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvot5d5c57cf12 play.open_result",
+      "startedAt": 1792992026926,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvot5d5c57cf12",
+      "startedAt": 1792992029979,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvot5d5c57cf12 play.open_play",
+      "startedAt": 1792992037008,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot5d5c57cf12 tap 960 540",
+      "startedAt": 1792992037725,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvot5d5c57cf12 tap 960 540",
+      "startedAt": 1792992037931,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvot5d5c57cf12",
+      "startedAt": 1792992038133,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance stop mvot5d5c57cf12",
+      "startedAt": 1792992052512,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792992053521,
+      "exitCode": 0,
+      "summary": null
+    }
+  ]
+}

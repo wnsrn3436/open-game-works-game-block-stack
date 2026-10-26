@@ -1,0 +1,118 @@
+{
+  "runs": [
+    {
+      "command": "ogw input --help",
+      "startedAt": 1792993877472,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou938328cf9b",
+      "startedAt": 1792993879727,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvou938328cf9b",
+      "startedAt": 1792993880054,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou938328cf9b tap_anchor terms_agree_all",
+      "startedAt": 1792993884096,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou938328cf9b",
+      "startedAt": 1792993884410,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou938328cf9b tap_anchor terms_confirm",
+      "startedAt": 1792993884720,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvou938328cf9b",
+      "startedAt": 1792993887038,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step-mode mvou938328cf9b on",
+      "startedAt": 1792993891249,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou938328cf9b tap_anchor lobby_play",
+      "startedAt": 1792993891549,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou938328cf9b 50 --count 2 --state --capture",
+      "startedAt": 1792993894872,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou938328cf9b 50 --count 16 --state",
+      "startedAt": 1792993897723,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou938328cf9b 10 --count 1 --state",
+      "startedAt": 1792993899222,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou938328cf9b key Space",
+      "startedAt": 1792993901242,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou938328cf9b 50 --count 1 --state --capture",
+      "startedAt": 1792993901556,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou938328cf9b 50 --count 2 --state",
+      "startedAt": 1792993905477,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvou938328cf9b key Space",
+      "startedAt": 1792993905915,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou938328cf9b 50 --count 4 --state --capture",
+      "startedAt": 1792993906222,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou938328cf9b 50 --count 20 --capture",
+      "startedAt": 1792993907926,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw step mvou938328cf9b 50 --count 8 --capture",
+      "startedAt": 1792993911389,
+      "exitCode": 0,
+      "summary": null
+    }
+  ]
+}

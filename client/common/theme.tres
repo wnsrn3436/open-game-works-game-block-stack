@@ -1,0 +1,314 @@
+[gd_resource type="Theme" format=3]
+
+[ext_resource type="Texture2D" path="res://resource/nine_slice/ui/panel.png" id="tex_panel"]
+[ext_resource type="Texture2D" path="res://resource/nine_slice/ui/button.png" id="tex_button"]
+
+[sub_resource type="StyleBoxTexture" id="panel"]
+texture = ExtResource("tex_panel")
+texture_margin_left = 64.0
+texture_margin_top = 64.0
+texture_margin_right = 64.0
+texture_margin_bottom = 64.0
+
+[sub_resource type="StyleBoxTexture" id="inset"]
+content_margin_left = 28.0
+content_margin_top = 18.0
+content_margin_right = 28.0
+content_margin_bottom = 18.0
+texture = ExtResource("tex_panel")
+texture_margin_left = 64.0
+texture_margin_top = 64.0
+texture_margin_right = 64.0
+texture_margin_bottom = 64.0
+modulate_color = Color(0.62, 0.66, 0.78, 1)
+
+[sub_resource type="StyleBoxTexture" id="plate"]
+content_margin_left = 34.0
+content_margin_top = 10.0
+content_margin_right = 34.0
+content_margin_bottom = 10.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(0.118, 0.165, 0.29, 0.86)
+
+[sub_resource type="StyleBoxTexture" id="header"]
+content_margin_left = 40.0
+content_margin_top = 10.0
+content_margin_right = 40.0
+content_margin_bottom = 14.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(1, 0.714, 0.153, 1)
+
+[sub_resource type="StyleBoxLine" id="divider"]
+color = Color(0.957, 0.906, 0.773, 0.5)
+thickness = 3
+
+[sub_resource type="StyleBoxTexture" id="primary_normal"]
+content_margin_left = 44.0
+content_margin_top = 14.0
+content_margin_right = 44.0
+content_margin_bottom = 18.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(1, 0.714, 0.153, 1)
+
+[sub_resource type="StyleBoxTexture" id="primary_hover"]
+content_margin_left = 44.0
+content_margin_top = 14.0
+content_margin_right = 44.0
+content_margin_bottom = 18.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(1, 0.8, 0.36, 1)
+
+[sub_resource type="StyleBoxTexture" id="primary_pressed"]
+content_margin_left = 44.0
+content_margin_top = 18.0
+content_margin_right = 44.0
+content_margin_bottom = 14.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(0.88, 0.6, 0.1, 1)
+
+[sub_resource type="StyleBoxTexture" id="primary_disabled"]
+content_margin_left = 44.0
+content_margin_top = 14.0
+content_margin_right = 44.0
+content_margin_bottom = 18.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(0.55, 0.57, 0.62, 0.85)
+
+[sub_resource type="StyleBoxTexture" id="secondary_normal"]
+content_margin_left = 44.0
+content_margin_top = 14.0
+content_margin_right = 44.0
+content_margin_bottom = 18.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(0.18, 0.239, 0.4, 1)
+
+[sub_resource type="StyleBoxTexture" id="secondary_hover"]
+content_margin_left = 44.0
+content_margin_top = 14.0
+content_margin_right = 44.0
+content_margin_bottom = 18.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(0.25, 0.32, 0.52, 1)
+
+[sub_resource type="StyleBoxTexture" id="secondary_pressed"]
+content_margin_left = 44.0
+content_margin_top = 18.0
+content_margin_right = 44.0
+content_margin_bottom = 14.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(0.13, 0.18, 0.31, 1)
+
+[sub_resource type="StyleBoxTexture" id="secondary_disabled"]
+content_margin_left = 44.0
+content_margin_top = 14.0
+content_margin_right = 44.0
+content_margin_bottom = 18.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(0.55, 0.57, 0.62, 0.85)
+
+[sub_resource type="StyleBoxTexture" id="focus"]
+expand_margin_left = 6.0
+expand_margin_top = 6.0
+expand_margin_right = 6.0
+expand_margin_bottom = 6.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(1, 1, 1, 0.9)
+draw_center = false
+
+[sub_resource type="StyleBoxTexture" id="check_on"]
+content_margin_left = 36.0
+content_margin_top = 12.0
+content_margin_right = 36.0
+content_margin_bottom = 14.0
+texture = ExtResource("tex_button")
+texture_margin_left = 48.0
+texture_margin_top = 48.0
+texture_margin_right = 48.0
+texture_margin_bottom = 48.0
+modulate_color = Color(0.239, 0.863, 0.592, 1)
+
+[sub_resource type="Gradient" id="box_off_gradient"]
+offsets = PackedFloat32Array(0, 0.6, 0.68, 1)
+colors = PackedColorArray(0.118, 0.165, 0.29, 1, 0.118, 0.165, 0.29, 1, 0.957, 0.906, 0.773, 1, 0.957, 0.906, 0.773, 1)
+
+[sub_resource type="GradientTexture2D" id="box_off"]
+gradient = SubResource("box_off_gradient")
+width = 44
+height = 44
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[sub_resource type="Gradient" id="box_on_gradient"]
+offsets = PackedFloat32Array(0, 0.4, 0.48, 0.6, 0.68, 1)
+colors = PackedColorArray(1, 0.714, 0.153, 1, 1, 0.714, 0.153, 1, 0.118, 0.165, 0.29, 1, 0.118, 0.165, 0.29, 1, 0.957, 0.906, 0.773, 1, 0.957, 0.906, 0.773, 1)
+
+[sub_resource type="GradientTexture2D" id="box_on"]
+gradient = SubResource("box_on_gradient")
+width = 44
+height = 44
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[resource]
+default_font_size = 36
+Button/styles/normal = SubResource("secondary_normal")
+Button/styles/hover = SubResource("secondary_hover")
+Button/styles/pressed = SubResource("secondary_pressed")
+Button/styles/disabled = SubResource("secondary_disabled")
+Button/styles/focus = SubResource("focus")
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_color = Color(1, 1, 1, 1)
+Button/colors/font_pressed_color = Color(0.957, 0.906, 0.773, 1)
+Button/colors/font_focus_color = Color(1, 1, 1, 1)
+Button/colors/font_disabled_color = Color(0.85, 0.87, 0.9, 0.8)
+Button/font_sizes/font_size = 40
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/colors/font_outline_color = Color(0.118, 0.165, 0.29, 1)
+Label/colors/font_shadow_color = Color(0.118, 0.165, 0.29, 0.6)
+Label/constants/outline_size = 0
+Label/font_sizes/font_size = 36
+CheckBox/styles/normal = SubResource("secondary_normal")
+CheckBox/styles/hover = SubResource("secondary_hover")
+CheckBox/styles/pressed = SubResource("check_on")
+CheckBox/styles/disabled = SubResource("secondary_disabled")
+CheckBox/styles/hover_pressed = SubResource("check_on")
+CheckBox/styles/focus = SubResource("focus")
+CheckBox/icons/checked = SubResource("box_on")
+CheckBox/icons/unchecked = SubResource("box_off")
+CheckBox/colors/font_color = Color(1, 1, 1, 1)
+CheckBox/colors/font_hover_color = Color(1, 1, 1, 1)
+CheckBox/colors/font_pressed_color = Color(0.118, 0.165, 0.29, 1)
+CheckBox/colors/font_hover_pressed_color = Color(0.118, 0.165, 0.29, 1)
+CheckBox/colors/font_focus_color = Color(1, 1, 1, 1)
+CheckBox/constants/h_separation = 20
+CheckBox/font_sizes/font_size = 36
+Panel/styles/panel = SubResource("panel")
+PanelContainer/styles/panel = SubResource("inset")
+PanelFrame/base_type = &"Panel"
+PanelFrame/styles/panel = SubResource("panel")
+PopupFrame/base_type = &"Panel"
+PopupFrame/styles/panel = SubResource("panel")
+HeaderBand/base_type = &"PanelContainer"
+HeaderBand/styles/panel = SubResource("header")
+Inset/base_type = &"PanelContainer"
+Inset/styles/panel = SubResource("inset")
+HudPlate/base_type = &"PanelContainer"
+HudPlate/styles/panel = SubResource("plate")
+Divider/base_type = &"HSeparator"
+Divider/styles/separator = SubResource("divider")
+Divider/constants/separation = 10
+ButtonPrimary/base_type = &"HeadingButton"
+ButtonPrimary/styles/normal = SubResource("primary_normal")
+ButtonPrimary/styles/hover = SubResource("primary_hover")
+ButtonPrimary/styles/pressed = SubResource("primary_pressed")
+ButtonPrimary/styles/disabled = SubResource("primary_disabled")
+ButtonPrimary/styles/focus = SubResource("focus")
+ButtonPrimary/colors/font_color = Color(0.118, 0.165, 0.29, 1)
+ButtonPrimary/colors/font_hover_color = Color(0.118, 0.165, 0.29, 1)
+ButtonPrimary/colors/font_focus_color = Color(0.118, 0.165, 0.29, 1)
+ButtonPrimary/colors/font_pressed_color = Color(0.118, 0.165, 0.29, 1)
+ButtonPrimary/colors/font_disabled_color = Color(0.85, 0.87, 0.9, 0.8)
+ButtonPrimary/font_sizes/font_size = 52
+ButtonSecondary/base_type = &"HeadingButton"
+ButtonSecondary/styles/normal = SubResource("secondary_normal")
+ButtonSecondary/styles/hover = SubResource("secondary_hover")
+ButtonSecondary/styles/pressed = SubResource("secondary_pressed")
+ButtonSecondary/styles/disabled = SubResource("secondary_disabled")
+ButtonSecondary/styles/focus = SubResource("focus")
+ButtonSecondary/colors/font_color = Color(1, 1, 1, 1)
+ButtonSecondary/colors/font_hover_color = Color(1, 1, 1, 1)
+ButtonSecondary/colors/font_focus_color = Color(1, 1, 1, 1)
+ButtonSecondary/colors/font_pressed_color = Color(1, 1, 1, 1)
+ButtonSecondary/colors/font_disabled_color = Color(0.85, 0.87, 0.9, 0.8)
+ButtonSecondary/font_sizes/font_size = 40
+TitleLabel/base_type = &"HeadingLabel"
+TitleLabel/colors/font_color = Color(1, 1, 1, 1)
+TitleLabel/colors/font_outline_color = Color(0.118, 0.165, 0.29, 1)
+TitleLabel/constants/outline_size = 22
+TitleLabel/font_sizes/font_size = 112
+PanelTitleLabel/base_type = &"HeadingLabel"
+PanelTitleLabel/colors/font_color = Color(0.118, 0.165, 0.29, 1)
+PanelTitleLabel/colors/font_outline_color = Color(0.118, 0.165, 0.29, 1)
+PanelTitleLabel/constants/outline_size = 0
+PanelTitleLabel/font_sizes/font_size = 52
+NumberLabel/base_type = &"HeadingLabel"
+NumberLabel/colors/font_color = Color(1, 1, 1, 1)
+NumberLabel/colors/font_outline_color = Color(0.118, 0.165, 0.29, 1)
+NumberLabel/constants/outline_size = 24
+NumberLabel/font_sizes/font_size = 128
+StatLabel/base_type = &"HeadingLabel"
+StatLabel/colors/font_color = Color(1, 1, 1, 1)
+StatLabel/colors/font_outline_color = Color(0.118, 0.165, 0.29, 1)
+StatLabel/constants/outline_size = 10
+StatLabel/font_sizes/font_size = 44
+StreakLabel/base_type = &"HeadingLabel"
+StreakLabel/colors/font_color = Color(1, 0.714, 0.153, 1)
+StreakLabel/colors/font_outline_color = Color(0.118, 0.165, 0.29, 1)
+StreakLabel/constants/outline_size = 14
+StreakLabel/font_sizes/font_size = 52
+BodyLabel/base_type = &"Label"
+BodyLabel/colors/font_color = Color(1, 1, 1, 1)
+BodyLabel/colors/font_outline_color = Color(0.118, 0.165, 0.29, 1)
+BodyLabel/constants/outline_size = 0
+BodyLabel/font_sizes/font_size = 36
+HintLabel/base_type = &"Label"
+HintLabel/colors/font_color = Color(1, 1, 1, 1)
+HintLabel/colors/font_outline_color = Color(0.118, 0.165, 0.29, 1)
+HintLabel/constants/outline_size = 12
+HintLabel/font_sizes/font_size = 36
+CaptionLabel/base_type = &"Label"
+CaptionLabel/colors/font_color = Color(0.957, 0.906, 0.773, 1)
+CaptionLabel/colors/font_outline_color = Color(0.118, 0.165, 0.29, 1)
+CaptionLabel/constants/outline_size = 8
+CaptionLabel/font_sizes/font_size = 28
+DangerLabel/base_type = &"Label"
+DangerLabel/colors/font_color = Color(1, 0.302, 0.369, 1)
+DangerLabel/colors/font_outline_color = Color(0.118, 0.165, 0.29, 1)
+DangerLabel/constants/outline_size = 8
+DangerLabel/font_sizes/font_size = 28

@@ -1,0 +1,186 @@
+{
+  "app_icon/main": {
+    "path": "res://resource/app_icon/main.png",
+    "variants": 1
+  },
+  "splash/main": {
+    "path": "res://resource/splash/main.png",
+    "variants": 1
+  },
+  "font/main": {
+    "path": "res://resource/font/main.ttf",
+    "variants": 1
+  },
+  "image/ui_kit": {
+    "path": "res://resource/image/ui_kit.png",
+    "variants": 1
+  },
+  "background/sky": {
+    "path": "res://resource/background/sky.png",
+    "variants": 1
+  },
+  "nine_slice/block": {
+    "path": "res://resource/nine_slice/block.png",
+    "variants": 1
+  },
+  "nine_slice/ui/panel": {
+    "path": "res://resource/nine_slice/ui/panel.png",
+    "variants": 1
+  },
+  "nine_slice/ui/button": {
+    "path": "res://resource/nine_slice/ui/button.png",
+    "variants": 1
+  },
+  "icon/best": {
+    "path": "res://resource/icon/best.png",
+    "variants": 1
+  },
+  "sfx/place": {
+    "path": "res://resource/sfx/place.wav",
+    "variants": 3
+  },
+  "sfx/perfect": {
+    "path": "res://resource/sfx/perfect.wav",
+    "variants": 1
+  },
+  "sfx/fail": {
+    "path": "res://resource/sfx/fail.wav",
+    "variants": 1
+  },
+  "bgm/main": {
+    "path": "res://resource/bgm/main.ogg",
+    "variants": 1
+  },
+  "scene/title/title": {
+    "path": "res://resource/scene/title/title.tscn",
+    "variants": 1
+  },
+  "scene/lobby/lobby": {
+    "path": "res://resource/scene/lobby/lobby.tscn",
+    "variants": 1
+  },
+  "scene/play/play": {
+    "path": "res://resource/scene/play/play.tscn",
+    "variants": 1
+  },
+  "prefab/common/loading_screen": {
+    "path": "res://resource/prefab/common/loading_screen.tscn",
+    "variants": 1
+  },
+  "prefab/common/terms_popup": {
+    "path": "res://resource/prefab/common/terms_popup.tscn",
+    "variants": 1
+  },
+  "prefab/common/system_popup": {
+    "path": "res://resource/prefab/common/system_popup.tscn",
+    "variants": 1
+  },
+  "prefab/common/loading_icon": {
+    "path": "res://resource/prefab/common/loading_icon.tscn",
+    "variants": 1
+  },
+  "prefab/lobby/lobby_panel": {
+    "path": "res://resource/prefab/lobby/lobby_panel.tscn",
+    "variants": 1
+  },
+  "prefab/lobby/option_panel": {
+    "path": "res://resource/prefab/lobby/option_panel.tscn",
+    "variants": 1
+  },
+  "prefab/play/hud_panel": {
+    "path": "res://resource/prefab/play/hud_panel.tscn",
+    "variants": 1
+  },
+  "prefab/play/pause_popup": {
+    "path": "res://resource/prefab/play/pause_popup.tscn",
+    "variants": 1
+  },
+  "prefab/play/result_panel": {
+    "path": "res://resource/prefab/play/result_panel.tscn",
+    "variants": 1
+  },
+  "prefab/play/block": {
+    "path": "res://resource/prefab/play/block.tscn",
+    "variants": 1
+  },
+  "prefab/play/scrap": {
+    "path": "res://resource/prefab/play/scrap.tscn",
+    "variants": 1
+  },
+  "tween/common/panel_in": {
+    "path": "res://resource/tween/common/panel_in.tres",
+    "variants": 1
+  },
+  "tween/common/popup_in": {
+    "path": "res://resource/tween/common/popup_in.tres",
+    "variants": 1
+  },
+  "tween/common/panel_out": {
+    "path": "res://resource/tween/common/panel_out.tres",
+    "variants": 1
+  },
+  "tween/common/button_press": {
+    "path": "res://resource/tween/common/button_press.tres",
+    "variants": 1
+  },
+  "tween/common/loading_spin": {
+    "path": "res://resource/tween/common/loading_spin.tres",
+    "variants": 1
+  },
+  "tween/lobby/demo_slide": {
+    "path": "res://resource/tween/lobby/demo_slide.tres",
+    "variants": 1
+  },
+  "tween/lobby/play_pulse": {
+    "path": "res://resource/tween/lobby/play_pulse.tres",
+    "variants": 1
+  },
+  "tween/play/land": {
+    "path": "res://resource/tween/play/land.tres",
+    "variants": 1
+  },
+  "tween/play/perfect_glow": {
+    "path": "res://resource/tween/play/perfect_glow.tres",
+    "variants": 1
+  },
+  "tween/play/cut_fall": {
+    "path": "res://resource/tween/play/cut_fall.tres",
+    "variants": 1
+  },
+  "tween/play/tower_scroll": {
+    "path": "res://resource/tween/play/tower_scroll.tres",
+    "variants": 1
+  },
+  "tween/play/score_pop": {
+    "path": "res://resource/tween/play/score_pop.tres",
+    "variants": 1
+  },
+  "tween/play/streak_pop": {
+    "path": "res://resource/tween/play/streak_pop.tres",
+    "variants": 1
+  },
+  "tween/play/perfect_flash": {
+    "path": "res://resource/tween/play/perfect_flash.tres",
+    "variants": 1
+  },
+  "tween/play/fail_flash": {
+    "path": "res://resource/tween/play/fail_flash.tres",
+    "variants": 1
+  },
+  "tween/play/count_up": {
+    "path": "res://resource/tween/play/count_up.tres",
+    "variants": 1
+  },
+  "tween/play/row_in_1": {
+    "path": "res://resource/tween/play/row_in_1.tres",
+    "variants": 1
+  },
+  "tween/play/row_in_2": {
+    "path": "res://resource/tween/play/row_in_2.tres",
+    "variants": 1
+  },
+  "tween/play/row_in_3": {
+    "path": "res://resource/tween/play/row_in_3.tres",
+    "variants": 1
+  }
+}

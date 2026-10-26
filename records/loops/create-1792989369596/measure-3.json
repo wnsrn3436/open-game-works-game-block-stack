@@ -1,0 +1,69 @@
+{
+  "commit": "f32c4e5556ab888bd7be3e19ba1913ae0f0fda61",
+  "targets": [
+    {
+      "metric": "input_latency_ms",
+      "min": 0,
+      "max": 100,
+      "value": 1,
+      "result": "in",
+      "data": null
+    },
+    {
+      "metric": "no_response_permille",
+      "min": 0,
+      "max": 200,
+      "value": 0,
+      "result": "in",
+      "data": "game_setting.next_block_delay"
+    },
+    {
+      "metric": "feedback_per_input",
+      "min": 1,
+      "max": 1000,
+      "value": 5,
+      "result": "in",
+      "data": null
+    },
+    {
+      "metric": "scene_load_ms",
+      "min": 0,
+      "max": 3000,
+      "value": 508,
+      "result": "in",
+      "data": null
+    },
+    {
+      "metric": "restart_delay_ms",
+      "min": 1000,
+      "max": 20000,
+      "value": 8868,
+      "result": "in",
+      "data": "game_setting.fall_wait"
+    },
+    {
+      "metric": "first_reward_ms",
+      "min": 3000,
+      "max": 40000,
+      "value": 24314,
+      "result": "in",
+      "data": "game_setting.perfect_tolerance"
+    },
+    {
+      "metric": "reward_interval_ms",
+      "min": 2000,
+      "max": 30000,
+      "value": 1002,
+      "result": "out",
+      "data": "game_setting.perfect_tolerance"
+    },
+    {
+      "metric": "goal_interval_ms",
+      "min": 15000,
+      "max": 180000,
+      "value": 21825,
+      "result": "in",
+      "data": "game_setting.slide_speed_step"
+    }
+  ]
+}

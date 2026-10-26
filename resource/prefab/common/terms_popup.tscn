@@ -1,0 +1,167 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://core/auth_core/terms_popup.gd" id="1_script"]
+[ext_resource type="Script" path="res://core/ui_core/ui_button.gd" id="2_button"]
+[ext_resource type="Script" path="res://common/common_terms_hint.gd" id="3_hint"]
+[ext_resource type="Script" path="res://common/common_terms_agree_all.gd" id="4_all"]
+[ext_resource type="Script" path="res://core/ui_core/ui_anchor.gd" id="5_anchor"]
+[ext_resource type="Script" path="res://common/common_press_bounce.gd" id="6_bounce"]
+
+[node name="TermsPopup" type="Control" node_paths=PackedStringArray("title_label", "terms_toggle", "privacy_toggle", "terms_view_button", "privacy_view_button", "confirm_button")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+dim = true
+open_tween = "tween/common/panel_in"
+close_tween = "tween/common/panel_out"
+title_label = NodePath("Frame/Box/Header/Title")
+terms_toggle = NodePath("Frame/Box/Items/List/TermsRow/Terms")
+privacy_toggle = NodePath("Frame/Box/Items/List/PrivacyRow/Privacy")
+terms_view_button = NodePath("Frame/Box/Items/List/TermsRow/TermsView")
+privacy_view_button = NodePath("Frame/Box/Items/List/PrivacyRow/PrivacyView")
+confirm_button = NodePath("Frame/Box/Confirm")
+
+[node name="Frame" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -500.0
+offset_top = -390.0
+offset_right = 500.0
+offset_bottom = 390.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"PopupFrame"
+
+[node name="Box" type="VBoxContainer" parent="Frame"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 44.0
+offset_top = 40.0
+offset_right = -44.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Header" type="PanelContainer" parent="Frame/Box"]
+custom_minimum_size = Vector2(0, 104)
+layout_mode = 2
+theme_type_variation = &"HeaderBand"
+
+[node name="Title" type="Label" parent="Frame/Box/Header"]
+layout_mode = 2
+theme_type_variation = &"PanelTitleLabel"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="AgreeAll" type="CheckBox" parent="Frame/Box" node_paths=PackedStringArray("terms_toggle", "privacy_toggle")]
+custom_minimum_size = Vector2(0, 96)
+layout_mode = 2
+script = ExtResource("4_all")
+terms_toggle = NodePath("../Items/List/TermsRow/Terms")
+privacy_toggle = NodePath("../Items/List/PrivacyRow/Privacy")
+
+[node name="UIButton" type="Node" parent="Frame/Box/AgreeAll"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/AgreeAll"]
+script = ExtResource("5_anchor")
+anchor_name = "terms_agree_all"
+
+[node name="Items" type="PanelContainer" parent="Frame/Box"]
+layout_mode = 2
+theme_type_variation = &"Inset"
+
+[node name="List" type="VBoxContainer" parent="Frame/Box/Items"]
+layout_mode = 2
+
+[node name="TermsRow" type="HBoxContainer" parent="Frame/Box/Items/List"]
+layout_mode = 2
+
+[node name="Terms" type="CheckBox" parent="Frame/Box/Items/List/TermsRow"]
+custom_minimum_size = Vector2(0, 92)
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 3
+
+[node name="UIButton" type="Node" parent="Frame/Box/Items/List/TermsRow/Terms"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Items/List/TermsRow/Terms"]
+script = ExtResource("5_anchor")
+anchor_name = "terms_agree_terms"
+
+[node name="TermsView" type="Button" parent="Frame/Box/Items/List/TermsRow"]
+custom_minimum_size = Vector2(190, 92)
+layout_mode = 2
+theme_type_variation = &"ButtonSecondary"
+
+[node name="UIButton" type="Node" parent="Frame/Box/Items/List/TermsRow/TermsView"]
+script = ExtResource("2_button")
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Items/List/TermsRow/TermsView"]
+script = ExtResource("6_bounce")
+
+[node name="PrivacyRow" type="HBoxContainer" parent="Frame/Box/Items/List"]
+layout_mode = 2
+
+[node name="Privacy" type="CheckBox" parent="Frame/Box/Items/List/PrivacyRow"]
+custom_minimum_size = Vector2(0, 92)
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 3
+
+[node name="UIButton" type="Node" parent="Frame/Box/Items/List/PrivacyRow/Privacy"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Items/List/PrivacyRow/Privacy"]
+script = ExtResource("5_anchor")
+anchor_name = "terms_agree_privacy"
+
+[node name="PrivacyView" type="Button" parent="Frame/Box/Items/List/PrivacyRow"]
+custom_minimum_size = Vector2(190, 92)
+layout_mode = 2
+theme_type_variation = &"ButtonSecondary"
+
+[node name="UIButton" type="Node" parent="Frame/Box/Items/List/PrivacyRow/PrivacyView"]
+script = ExtResource("2_button")
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Items/List/PrivacyRow/PrivacyView"]
+script = ExtResource("6_bounce")
+
+[node name="Hint" type="Label" parent="Frame/Box" node_paths=PackedStringArray("terms_toggle", "privacy_toggle", "confirm_button")]
+layout_mode = 2
+theme_type_variation = &"CaptionLabel"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+script = ExtResource("3_hint")
+terms_toggle = NodePath("../Items/List/TermsRow/Terms")
+privacy_toggle = NodePath("../Items/List/PrivacyRow/Privacy")
+confirm_button = NodePath("../Confirm")
+
+[node name="Confirm" type="Button" parent="Frame/Box"]
+custom_minimum_size = Vector2(0, 112)
+layout_mode = 2
+theme_type_variation = &"ButtonPrimary"
+
+[node name="UIButton" type="Node" parent="Frame/Box/Confirm"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Frame/Box/Confirm"]
+script = ExtResource("5_anchor")
+anchor_name = "terms_confirm"
+
+[node name="PressBounce" type="Node" parent="Frame/Box/Confirm"]
+script = ExtResource("6_bounce")

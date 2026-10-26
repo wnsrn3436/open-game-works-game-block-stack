@@ -1,0 +1,50 @@
+{
+  "findings": [
+    {
+      "severity": "blocker",
+      "owner": "client content",
+      "why": "a TweenCore preset that the client main plays fails its definition check, so the error log stops the bot playtest at step 1",
+      "id": "tween-preset-invalid-value",
+      "drop": null,
+      "source": "check",
+      "where": "step 1",
+      "what": "client main error log: 1792993402749\terror\tTweenCore\tplay_preset: definition check failed: change 0 of step 0 has a value that is not finite or out of range\tres://core/tween_core/tween_core.gd:436 _checked\\nres://core/tween_core/tween_core.gd:200 play_preset\\nres://features/play/play_result_panel.gd:68 on_opened\\nres://core/ui_core/ui_core.gd:1421 _show_view\\nres://core/ui_core/ui_core.gd:1262 _open_flow\\nres://core/ui_core/ui_core.gd:1391 _make_view\\nres://core/ui_core/call_waiter.gd:56 _finish\\nres://core/ui_core/call_waiter.gd:30 start_load\\nres://core/resource_core/resource_core.gd:210 load\\nres://core/resource_core/resource_core.gd:572 _run_loading",
+      "evidence": [
+        "records/loops/create-1792989369596/check-2.json#no blocker",
+        "records/loops/create-1792989369596/evidence/check-2/bot-playtest/client.log",
+        "records/loops/create-1792989369596/evidence/check-2/bot-playtest/server.log"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "owner": "client content",
+      "why": "a TweenCore preset that the client main plays fails its definition check, so the error log stops the bot playtest at step 1",
+      "id": "tween-preset-invalid-value",
+      "drop": null,
+      "source": "check",
+      "where": "step 1",
+      "what": "scenario stopped at step 1",
+      "evidence": [
+        "records/loops/create-1792989369596/check-2.json#full flow",
+        "records/loops/create-1792989369596/evidence/check-2/bot-playtest/client.log",
+        "records/loops/create-1792989369596/evidence/check-2/bot-playtest/server.log"
+      ]
+    },
+    {
+      "severity": "major",
+      "owner": "client content",
+      "why": "the HUD score plate is mostly one flat color, which the UI quality check fails",
+      "id": "flat-panels",
+      "drop": null,
+      "source": "check",
+      "where": "scene/play/play",
+      "what": "flat panel UICore/Panel/SafeAreaRoot/Hud/ScorePlate: 86% one color in prefab/play/hud_panel (en, display_16_9, play.open_pause, text scale 1000)",
+      "evidence": [
+        "records/loops/create-1792989369596/check-2.json#UI quality",
+        "records/loops/create-1792989369596/evidence/check-2/ui-macos/0010-en-display_16_9-play.open_pause-1000.png",
+        "records/loops/create-1792989369596/evidence/check-2/ui-macos/0010-en-display_16_9-play.open_pause-1000.json"
+      ]
+    }
+  ],
+  "discarded": []
+}

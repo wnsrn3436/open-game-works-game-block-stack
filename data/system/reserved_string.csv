@@ -1,0 +1,145 @@
+,
+All,All
+id(key),tstring<id>
+id,text
+[auth_terms_title],Terms of service
+[auth_terms_agree_terms],I agree to the terms of service
+[auth_terms_agree_privacy],I agree to the privacy policy
+[auth_terms_view],View
+[auth_terms_confirm],Confirm
+[auth_age_title],Enter your birth year and month
+[auth_age_year],Year
+[auth_age_month],Month
+[auth_age_confirm],Confirm
+[auth_age_invalid],Enter a valid year and month.
+[auth_privacy_title],Privacy choices
+[auth_privacy_ad_personalization],Personalized ads
+[auth_privacy_analytics],Usage analytics
+[auth_privacy_confirm],Confirm
+[auth_tracking_usage],Your data is used to show ads that fit you.
+[auth_push_title],Notifications
+[auth_push_ad],Event and offer notifications
+[auth_push_night],Night notifications
+[auth_push_confirm],Confirm
+[auth_push_ad_granted],You agreed to event and offer notifications on {date:date}.
+[auth_push_ad_denied],You declined event and offer notifications on {date:date}.
+[auth_push_night_granted],You agreed to night notifications on {date:date}.
+[auth_push_night_denied],You declined night notifications on {date:date}.
+[auth_recover_linked],Sign in with a linked account
+[auth_recover_guest],Your guest account could not be found.
+[auth_recover_login_apple],Sign in with Apple
+[auth_recover_login_google],Sign in with Google
+[auth_recover_new],Start a new account
+[auth_recover_new_confirm],A new account cannot return to the old account. Start a new account?
+[auth_recover_new_ok],Start
+[auth_recover_back],Back
+[auth_session_replaced],Your account was signed in on another device.
+[auth_go_to_title],Go to title
+[auth_web_link_body],Link an account to keep your progress.
+[auth_web_link_google],Link Google account
+[auth_web_link_later],Later
+[auth_web_link_failed],The account could not be linked.
+[auth_google_desktop_done],Sign-in is done. Return to the game.
+[bootstrap_fatal_error],An error stopped the game.
+[bootstrap_login_failed],Sign-in failed.
+[bootstrap_banned],User code {public_code} is restricted until {until_at:datetime}. Details: {url}
+[bootstrap_banned_permanent],User code {public_code} is restricted. Details: {url}
+[bootstrap_banned_deletion],Request account deletion
+[bootstrap_banned_deletion_code],User code {public_code}: enter code {code} at {url} before {expires_at:datetime}.
+[bootstrap_banned_deletion_failed],The deletion code could not be issued.
+[bootstrap_age_blocked],You cannot use this game at your age.
+[bootstrap_restart],Restart
+[app_name],Block Stack
+[game_update_app_update_required],A new version of the app is required.
+[game_update_recommended],A new version of the app is available.
+[game_update_data_update_required],New game data is required. The game restarts.
+[game_update_download_failed],The download failed.
+[game_update_invalid_file],A downloaded file is damaged.
+[game_update_no_space],There is not enough storage space.
+[game_update_save_failed],A downloaded file could not be saved.
+[game_update_go_to_store],Go to store
+[game_update_later],Later
+[game_update_retry],Retry
+[game_update_restart],Restart
+[network_confirm],OK
+[network_retry],Retry
+[network_go_to_title],Go to title
+[network_error_timeout],The server did not answer in time.
+[network_error_connection],The server could not be reached.
+[network_error_invalid_response],The server answer could not be read.
+[network_error_session],Your session ended. Sign in again.
+[network_error_maintenance],The server is under maintenance.
+[network_error_banned],Your account is restricted.
+[network_error_rate_limited],Too many requests. Try again later.
+[network_error_feature_disabled],This feature is not available now.
+[network_error_general],A server error occurred.
+[scene_prepare_failed],The screen could not be loaded.
+[scene_retry],Retry
+[scene_restart],Restart
+[ui_exit_confirm],Quit the game?
+[ui_exit_quit],Quit
+[ui_exit_cancel],Cancel
+[ui_licenses_title],Licenses
+[ui_licenses_close],Close
+[auth_deletion_title],Delete account
+[auth_deletion_body],Enter your user code and the deletion code from the game.
+[auth_deletion_user_id],User code
+[auth_deletion_code],Deletion code
+[auth_deletion_confirm],I understand that deleted data cannot be restored.
+[auth_deletion_submit],Delete
+[auth_deletion_google],Delete with Google sign-in
+[auth_deletion_done],Your account deletion was requested.
+[auth_deletion_failed],The account could not be deleted.
+[auth_deletion_retry],Retry
+[auth_deletion_rate_limited],Too many tries. Try again later.
+[auth_deletion_back],Back
+[title_tagline],One click. One block. How high can you go?
+[loading_text],Loading
+[common_terms_agree_all],Agree to all
+[common_terms_agree_both],Agree to both items to continue
+[common_number],{value:n}
+[lobby_play],Play
+[lobby_options],Options
+[lobby_best],Best
+[lobby_record],Runs {runs:n}  ·  Best streak {streak:n}
+[lobby_first_run],Stack your first tower
+[play_ready],Getting ready
+[play_hint],Click or press {action:drop} to drop the block
+[play_hint_pad],Press {action:drop} to drop the block
+[play_perfect],Perfect ×{streak}
+[play_perfect_grow],Perfect ×{streak}  ·  Grow!
+[play_best],Best
+[pause_title],Paused
+[pause_resume],Resume
+[pause_end],End run
+[result_title_best],New best!
+[result_title],Tower fell
+[result_score],Score
+[result_best],Best
+[result_perfects],Perfect drops
+[result_streak],Best streak
+[result_again],Play again
+[result_lobby],Lobby
+[result_unsaved],This run was not recorded
+[option_title],Options
+[option_sound_header],Sound
+[option_music],Music
+[option_sounds],Sound effects
+[option_account_header],Account
+[option_user_code],User code: {code}
+[option_copy_user_code],Copy code
+[option_deletion_issue],Get account deletion code
+[option_deletion_info],"Code {code}, valid until {expires_at:datetime}. Enter it at {url}"
+[option_copy_code],Copy deletion code
+[option_copy_url],Copy page address
+[option_withdraw],Withdraw
+[option_withdraw_confirm],Withdraw your account? Your record is deleted and cannot be restored.
+[option_withdraw_ok],Withdraw
+[option_cancel],Cancel
+[option_legal_header],About
+[option_terms],Terms of service
+[option_privacy],Privacy policy
+[option_licenses],Licenses
+[option_close],Close
+[option_copied],Copied
+[option_failed],It did not work. Try again.

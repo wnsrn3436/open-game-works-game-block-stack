@@ -1,0 +1,57 @@
+{
+  "steps": [
+    {
+      "kind": "auto",
+      "command": "play.bot_next_input",
+      "args": [],
+      "until": {
+        "path": "telemetry.goal_intervals",
+        "op": "count_gte",
+        "value": 1
+      },
+      "timeoutMs": 300000
+    },
+    {
+      "kind": "setup",
+      "command": "lobby.open_lobby",
+      "args": [],
+      "timeoutMs": 60000
+    },
+    {
+      "kind": "save",
+      "timeoutMs": 120000
+    },
+    {
+      "kind": "setup",
+      "command": "force_network_failure",
+      "args": [
+        "connection_failed"
+      ],
+      "timeoutMs": 10000
+    },
+    {
+      "kind": "setup",
+      "command": "force_network_failure",
+      "args": [
+        "none"
+      ],
+      "timeoutMs": 10000
+    },
+    {
+      "kind": "auto",
+      "command": "play.bot_next_input",
+      "args": [],
+      "until": {
+        "path": "state.content.record.runs",
+        "op": "gte",
+        "value": 2
+      },
+      "timeoutMs": 300000
+    }
+  ],
+  "goal": {
+    "path": "telemetry.goal_intervals",
+    "op": "count_gte",
+    "value": 1
+  }
+}

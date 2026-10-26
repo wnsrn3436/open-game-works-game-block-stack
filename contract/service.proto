@@ -1,0 +1,22 @@
+syntax = "proto3";
+package game;
+
+import "ogw/options.proto";
+
+option (ogw.core_errors) = "StartPlaySession:GAME_ERROR_LEVEL_NOT_FOUND";
+
+service Game {
+}
+
+// The result of one finished run. The client tower simulation decides it; `verify_play_session` checks it against the
+// play session time and `game_setting` before `apply_play_session` counts it in `RecordUserState`.
+message PlaySessionResult {
+  // Blocks placed on the tower in the run. The block that missed is not counted.
+  int32 blocks = 1 [(ogw.v) = {min: 0, max: 100000}];
+  // Score of the run: 1 per placed block plus the streak bonus of each perfect drop.
+  int32 score = 2 [(ogw.v) = {min: 0, max: 1000000}];
+  // Perfect drops in the run.
+  int32 perfects = 3 [(ogw.v) = {min: 0, max: 100000}];
+  // Longest run of perfect drops in a row in the run.
+  int32 best_streak = 4 [(ogw.v) = {min: 0, max: 100000}];
+}
