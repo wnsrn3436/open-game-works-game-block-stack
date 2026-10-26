@@ -164,6 +164,2044 @@
       "startedAt": 1792991182993,
       "exitCode": 0,
       "summary": null
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792991184450,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --static",
+      "startedAt": 1792991194255,
+      "exitCode": 0,
+      "summary": {
+        "checks": [
+          {
+            "name": "static check",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --regression client/tests",
+      "startedAt": 1792991240726,
+      "exitCode": 1,
+      "summary": {
+        "checks": [
+          {
+            "name": "regression test",
+            "result": "fail"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --regression client/tests",
+      "startedAt": 1792991264621,
+      "exitCode": 0,
+      "summary": {
+        "checks": [
+          {
+            "name": "regression test",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw instance start open-game-works-game-block-stack",
+      "startedAt": 1792991273878,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvospl7738f293"
+    },
+    {
+      "command": "ogw job wait mvospl7738f293",
+      "startedAt": 1792991278252,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvosplgl1fa712",
+      "startedAt": 1792991281846,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvosplgl1fa712",
+      "startedAt": 1792991282006,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 tap_anchor lobby_play",
+      "startedAt": 1792991290290,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.state",
+      "startedAt": 1792991293504,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvosplgl1fa712",
+      "startedAt": 1792991293674,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991300647,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991300835,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991301027,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991301218,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991301411,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991301602,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991301793,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991301985,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991302177,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key Space",
+      "startedAt": 1792991302366,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991302517,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991302708,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991302899,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991303085,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991303273,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991303457,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991303642,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991303835,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991304026,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key Space",
+      "startedAt": 1792991304218,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991304369,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991304561,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991304751,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991304943,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991305136,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991305327,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991305518,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991305708,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991305898,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key Space",
+      "startedAt": 1792991306080,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991306229,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991306415,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991306602,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991306794,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991306984,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991307178,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991307368,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991307561,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991307751,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key Space",
+      "startedAt": 1792991307942,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991308095,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991308284,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991308477,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991308667,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991308858,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991309050,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991309241,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991309423,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991309610,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key Space",
+      "startedAt": 1792991309799,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991309952,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991310141,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991310335,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991310527,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991310718,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991310910,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991311101,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991311292,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key Space",
+      "startedAt": 1792991311484,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991311634,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991311825,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991312016,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991312206,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991312390,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991312578,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991312769,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.state",
+      "startedAt": 1792991312958,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvosplgl1fa712",
+      "startedAt": 1792991313125,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvosplgl1fa712",
+      "startedAt": 1792991313283,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991316426,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991316600,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991316774,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991316951,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991317142,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991317332,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991317521,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991317703,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991317881,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991318058,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991318238,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991318410,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991318592,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991318777,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.bot_next_input",
+      "startedAt": 1792991318958,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key Space",
+      "startedAt": 1792991319134,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.state",
+      "startedAt": 1792991319309,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key Space",
+      "startedAt": 1792991326270,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key Space",
+      "startedAt": 1792991326441,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvosplgl1fa712",
+      "startedAt": 1792991326615,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.state",
+      "startedAt": 1792991326804,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvosplgl1fa712",
+      "startedAt": 1792991331053,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvosplgl1fa712",
+      "startedAt": 1792991331237,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvosplgl1fa712 --summary",
+      "startedAt": 1792991331403,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 tap_anchor result_again",
+      "startedAt": 1792991339773,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key P",
+      "startedAt": 1792991341983,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvosplgl1fa712",
+      "startedAt": 1792991343194,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvosplgl1fa712 key Escape",
+      "startedAt": 1792991343379,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 play.state",
+      "startedAt": 1792991344587,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvosplgl1fa712",
+      "startedAt": 1792991344757,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvosplgl1fa712 lobby.open_option",
+      "startedAt": 1792991357565,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw capture mvosplgl1fa712",
+      "startedAt": 1792991359546,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvosplgl1fa712",
+      "startedAt": 1792991359736,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance stop mvosplgl1fa712",
+      "startedAt": 1792991367474,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource sync open-game-works-game-block-stack",
+      "startedAt": 1792991389960,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792991390823,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --static",
+      "startedAt": 1792991398861,
+      "exitCode": 0,
+      "summary": {
+        "checks": [
+          {
+            "name": "static check",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw instance start open-game-works-game-block-stack",
+      "startedAt": 1792991410615,
+      "exitCode": 0,
+      "summary": null,
+      "job": "mvossiph5badfe"
+    },
+    {
+      "command": "ogw job wait mvossiph5badfe",
+      "startedAt": 1792991410756,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991423147,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 tap_anchor lobby_play",
+      "startedAt": 1792991423332,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991423512,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991423702,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991423895,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991424088,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991424280,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991424469,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991424645,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991424840,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991425037,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991425230,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991425438,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991425615,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991425817,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991426012,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991426207,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991426405,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991426604,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991426800,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991426999,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991427202,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991427392,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991427570,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991427762,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991427937,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991428129,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991428322,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991428518,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991428694,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991428883,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991429076,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991429267,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991429460,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991429651,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991429830,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991430020,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991430212,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991430388,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991430579,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991430768,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991430944,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991431136,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991431328,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991431523,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991431719,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991431911,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991432100,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 tap_anchor result_again",
+      "startedAt": 1792991432290,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991432468,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991432662,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991432838,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991433028,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991433219,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991433408,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991433585,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991433778,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991433968,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991434163,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991434354,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991434544,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991434719,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991434908,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991435102,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991435276,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991435467,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991435660,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991435836,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991436027,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991436220,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991436410,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991436602,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991436793,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991436969,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991437163,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991437353,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991437544,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991437718,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991437907,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991438087,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991438275,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991438466,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991438662,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991438853,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991439045,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991439236,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991439427,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991439620,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991439812,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991439987,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991440178,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991440370,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991440561,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991440750,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991440942,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991441135,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991441324,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991441517,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991441711,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991441904,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991442079,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991442269,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991442461,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991442652,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991442845,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991443036,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991443229,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991443419,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991443610,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991443801,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991443993,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991444168,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991444358,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991444553,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991444743,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991444935,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991445128,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991445318,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991445512,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991445704,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991445898,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991446096,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991446271,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991446461,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991446652,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991446844,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991447035,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991447226,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991447416,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991447611,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991447803,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991447995,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991448190,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991448371,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991448560,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991448751,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991448944,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991449136,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991449328,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991449520,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991449710,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991449900,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991450093,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991450284,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991450461,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991450655,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991450846,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991451035,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991451227,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991451420,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991451612,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991451804,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991451995,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991452186,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991452378,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991452554,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991452743,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991452932,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991453128,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991453315,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991453510,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991453703,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991453895,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991454086,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991454278,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991454471,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991454646,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991454836,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991455027,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991455219,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991455411,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991455602,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991455794,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991455984,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991456176,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991456364,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991456551,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991456728,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991456919,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991457110,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991457305,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991457495,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991457687,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991457876,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991458069,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991458261,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991458452,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991458642,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991458819,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991459007,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991459199,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991459392,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991459586,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input mvossiz0c46a07 key Space",
+      "startedAt": 1792991459776,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991459953,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991460146,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991460336,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991460527,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 play.bot_next_input",
+      "startedAt": 1792991460720,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991460912,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvossiz0c46a07",
+      "startedAt": 1792991461084,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw telemetry mvossiz0c46a07 --summary",
+      "startedAt": 1792991461244,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 lobby.open_lobby",
+      "startedAt": 1792991464985,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991465687,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 restart",
+      "startedAt": 1792991465861,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw command mvossiz0c46a07 get_state",
+      "startedAt": 1792991472068,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw log mvossiz0c46a07",
+      "startedAt": 1792991472241,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw instance stop mvossiz0c46a07",
+      "startedAt": 1792991497192,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --regression",
+      "startedAt": 1792991512317,
+      "exitCode": 0,
+      "summary": {
+        "checks": [
+          {
+            "name": "regression test",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw data open-game-works-game-block-stack",
+      "startedAt": 1792991521480,
+      "exitCode": 0,
+      "summary": {
+        "glossaryMissing": []
+      }
+    },
+    {
+      "command": "ogw contract open-game-works-game-block-stack",
+      "startedAt": 1792991522045,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --static",
+      "startedAt": 1792991522721,
+      "exitCode": 0,
+      "summary": {
+        "checks": [
+          {
+            "name": "static check",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792991527960,
+      "exitCode": 0,
+      "summary": null
     }
   ]
 }
