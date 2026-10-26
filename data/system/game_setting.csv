@@ -1,0 +1,16 @@
+,,,
+All,None,None,All
+id(key),string,string,string
+id,target,data_type,value
+[block_width],Client,int,440
+[block_height],Client,int,56
+[slide_half_range],Client,int,640
+[slide_speed],Client,int,700
+[slide_speed_step],Client,int,20
+[slide_speed_max],Client,int,1700
+[perfect_tolerance],Client,int,12
+[regrow_streak],Client,int,3
+[regrow_amount],Client,int,24
+[perfect_bonus_max],All,int,5
+[next_block_delay],All,duration,150ms
+[fall_wait],Client,duration,1000ms

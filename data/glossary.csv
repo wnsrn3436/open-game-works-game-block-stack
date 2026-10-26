@@ -1,0 +1,21 @@
+source,id_name,note,source_hash
+English,[lang_en],Name of the English language,ba118bf7fc9c1aed
+Block Stack,,Game title (records/setup/name.md),2475ce92f477f38c
+Perfect,,A drop that lands within the perfect tolerance of the block below and keeps the full width,b7b5d051e8cb1631
+streak,,Perfect drops in a row,3fbf0de21a976c03
+Space,[prompt_touch_drop],Space bar key name of the drop prompt,20eac5aae274985f
+P,[prompt_touch_pause],P key name of the pause prompt,5c62e091b8c0565f
+Esc,[prompt_touch_back],Escape key name of the back prompt,52f878edb34fa14f
+Esc,[prompt_key_escape],Escape key name of the back prompt,52f878edb34fa14f
+A,[prompt_pad_a],Bottom face button of a gamepad,559aead08264d579
+Start,[prompt_pad_start],Start button of a gamepad,e4bb9f1ece9af926
+B,[prompt_pad_b],Right face button of a gamepad,df7e70e5021544f4
+A,[prompt_xbox_a],Xbox A button,559aead08264d579
+Menu,[prompt_xbox_start],Xbox Menu button,99af6606ff9d6cd5
+B,[prompt_xbox_b],Xbox B button,df7e70e5021544f4
+Cross,[prompt_ps_a],PlayStation Cross button,1fc0e7076bb4cd66
+Options,[prompt_ps_start],PlayStation Options button,d0db8b5e364b6989
+Circle,[prompt_ps_b],PlayStation Circle button,b93d3bcecff5d749
+B,[prompt_nintendo_a],Nintendo bottom face button (B),df7e70e5021544f4
++,[prompt_nintendo_start],Nintendo Plus button,a318c24216defe20
+A,[prompt_nintendo_b],Nintendo right face button (A),559aead08264d579

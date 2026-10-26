@@ -1,0 +1,169 @@
+{
+  "runs": [
+    {
+      "command": "ogw settings list game open-game-works-game-block-stack --owner content",
+      "startedAt": 1792989488258,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generate open-game-works-game-block-stack",
+      "startedAt": 1792989497013,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw data open-game-works-game-block-stack",
+      "startedAt": 1792989502133,
+      "exitCode": 1,
+      "summary": {
+        "glossaryMissing": []
+      }
+    },
+    {
+      "command": "ogw settings list game open-game-works-game-block-stack --owner content",
+      "startedAt": 1792989679157,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw input --help",
+      "startedAt": 1792989738884,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw data open-game-works-game-block-stack",
+      "startedAt": 1792990082619,
+      "exitCode": 0,
+      "summary": {
+        "glossaryMissing": []
+      }
+    },
+    {
+      "command": "ogw resource placeholder open-game-works-game-block-stack",
+      "startedAt": 1792990135589,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource request open-game-works-game-block-stack image/ui_kit app_icon/main splash/main font/main background/sky sfx/place sfx/perfect sfx/fail bgm/main",
+      "startedAt": 1792990148276,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792990148835,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw settings set game open-game-works-game-block-stack core.LocalizationCore.headingFontWeight 800 core.LocalizationCore.bodyFontWeight 500",
+      "startedAt": 1792990158090,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource request open-game-works-game-block-stack image/ui_kit app_icon/main splash/main font/main background/sky sfx/place sfx/perfect sfx/fail bgm/main",
+      "startedAt": 1792990167233,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw meta sync open-game-works-game-block-stack --staged",
+      "startedAt": 1792990167797,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource request open-game-works-game-block-stack nine_slice/block nine_slice/ui/panel nine_slice/ui/button icon/best --see image/ui_kit",
+      "startedAt": 1792990175627,
+      "exitCode": 1,
+      "summary": null
+    },
+    {
+      "command": "ogw contract open-game-works-game-block-stack",
+      "startedAt": 1792990187378,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --regression server/tests",
+      "startedAt": 1792990273889,
+      "exitCode": 0,
+      "summary": {
+        "checks": [
+          {
+            "name": "regression test",
+            "result": "pass"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw settings set game open-game-works-game-block-stack core.UICore.systemPopupResource \"prefab/common/system_popup\" core.UICore.loadingIconResource \"prefab/common/loading_icon\"",
+      "startedAt": 1792991010282,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw resource sync open-game-works-game-block-stack",
+      "startedAt": 1792991010673,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw generate open-game-works-game-block-stack",
+      "startedAt": 1792991107917,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw data open-game-works-game-block-stack",
+      "startedAt": 1792991116768,
+      "exitCode": 0,
+      "summary": {
+        "glossaryMissing": []
+      }
+    },
+    {
+      "command": "ogw contract open-game-works-game-block-stack",
+      "startedAt": 1792991117383,
+      "exitCode": 0,
+      "summary": null
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --static",
+      "startedAt": 1792991118044,
+      "exitCode": 1,
+      "summary": {
+        "checks": [
+          {
+            "name": "static check",
+            "result": "fail"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw check open-game-works-game-block-stack --static",
+      "startedAt": 1792991171626,
+      "exitCode": 1,
+      "summary": {
+        "checks": [
+          {
+            "name": "static check",
+            "result": "fail"
+          }
+        ]
+      }
+    },
+    {
+      "command": "ogw resource sync open-game-works-game-block-stack",
+      "startedAt": 1792991182993,
+      "exitCode": 0,
+      "summary": null
+    }
+  ]
+}

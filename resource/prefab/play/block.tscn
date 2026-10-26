@@ -1,0 +1,39 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://features/play/play_block.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://resource/nine_slice/block.png" id="2_block"]
+
+[node name="Block" type="Node2D" node_paths=PackedStringArray("visual", "face", "glow")]
+script = ExtResource("1_script")
+visual = NodePath("Visual")
+face = NodePath("Visual/Face")
+glow = NodePath("Visual/Glow")
+
+[node name="Visual" type="Node2D" parent="."]
+
+[node name="Face" type="NinePatchRect" parent="Visual"]
+offset_left = -220.0
+offset_top = -56.0
+offset_right = 660.0
+offset_bottom = 56.0
+scale = Vector2(0.5, 0.5)
+mouse_filter = 2
+texture = ExtResource("2_block")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Glow" type="NinePatchRect" parent="Visual"]
+visible = false
+offset_left = -220.0
+offset_top = -56.0
+offset_right = 660.0
+offset_bottom = 56.0
+scale = Vector2(0.5, 0.5)
+mouse_filter = 2
+texture = ExtResource("2_block")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24

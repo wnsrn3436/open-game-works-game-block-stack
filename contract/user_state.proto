@@ -1,0 +1,14 @@
+syntax = "proto3";
+package game;
+
+// The tower record of the user. No row before the first finished run.
+message RecordUserState {
+  // Finished runs.
+  int32 runs = 1;
+  // Highest score of one run.
+  int32 best_score = 2;
+  // Longest run of perfect drops in a row in one run.
+  int32 best_streak = 3;
+  // Blocks placed in all runs.
+  int64 total_blocks = 4;
+}

@@ -1,0 +1,250 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://features/lobby/lobby_panel.gd" id="1_script"]
+[ext_resource type="Script" path="res://core/ui_core/ui_button.gd" id="2_button"]
+[ext_resource type="Script" path="res://core/ui_core/ui_anchor.gd" id="3_anchor"]
+[ext_resource type="Script" path="res://common/common_press_bounce.gd" id="4_bounce"]
+[ext_resource type="Texture2D" path="res://resource/nine_slice/block.png" id="5_block"]
+
+[node name="LobbyPanel" type="Control" node_paths=PackedStringArray("initial_focus", "title_label", "record_label", "best_caption", "best_label", "best_icon", "play_button", "option_button", "play_click", "option_click", "demo_blocks", "demo_slider")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_script")
+open_tween = "tween/common/panel_in"
+initial_focus = NodePath("Play")
+title_label = NodePath("Top/Title")
+record_label = NodePath("Top/Record")
+best_caption = NodePath("BestPlate/Row/Texts/Caption")
+best_label = NodePath("BestPlate/Row/Texts/Value")
+best_icon = NodePath("BestPlate/Row/Icon")
+play_button = NodePath("Play")
+option_button = NodePath("Options")
+play_click = NodePath("Play/UIButton")
+option_click = NodePath("Options/UIButton")
+demo_blocks = [NodePath("Demo/Block1"), NodePath("Demo/Block2"), NodePath("Demo/Block3"), NodePath("Demo/Block4"), NodePath("Demo/Block5")]
+demo_slider = NodePath("Demo/Slider")
+
+[node name="Top" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -700.0
+offset_top = 60.0
+offset_right = 700.0
+offset_bottom = 290.0
+grow_horizontal = 2
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Top"]
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Record" type="Label" parent="Top"]
+layout_mode = 2
+theme_type_variation = &"HintLabel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Options" type="Button" parent="."]
+layout_mode = 1
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 320.0
+offset_bottom = 140.0
+theme_type_variation = &"ButtonSecondary"
+
+[node name="UIButton" type="Node" parent="Options"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Options"]
+script = ExtResource("3_anchor")
+anchor_name = "lobby_options"
+
+[node name="PressBounce" type="Node" parent="Options"]
+script = ExtResource("4_bounce")
+
+[node name="BestPlate" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -330.0
+offset_top = 36.0
+offset_right = -40.0
+offset_bottom = 148.0
+grow_horizontal = 0
+mouse_filter = 2
+theme_type_variation = &"HudPlate"
+
+[node name="Row" type="HBoxContainer" parent="BestPlate"]
+layout_mode = 2
+mouse_filter = 2
+alignment = 1
+
+[node name="Icon" type="TextureRect" parent="BestPlate/Row"]
+custom_minimum_size = Vector2(76, 76)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Texts" type="VBoxContainer" parent="BestPlate/Row"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+alignment = 1
+
+[node name="Caption" type="Label" parent="BestPlate/Row/Texts"]
+layout_mode = 2
+theme_type_variation = &"CaptionLabel"
+horizontal_alignment = 1
+
+[node name="Value" type="Label" parent="BestPlate/Row/Texts"]
+layout_mode = 2
+theme_type_variation = &"StatLabel"
+horizontal_alignment = 1
+
+[node name="Demo" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_top = 60.0
+offset_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Slab" type="NinePatchRect" parent="Demo"]
+self_modulate = Color(0.18, 0.239, 0.4, 1)
+offset_left = -200.0
+offset_top = 120.0
+offset_right = 600.0
+offset_bottom = 520.0
+scale = Vector2(0.5, 0.5)
+mouse_filter = 2
+texture = ExtResource("5_block")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Block1" type="NinePatchRect" parent="Demo"]
+offset_left = -200.0
+offset_top = 64.0
+offset_right = 600.0
+offset_bottom = 176.0
+scale = Vector2(0.5, 0.5)
+mouse_filter = 2
+texture = ExtResource("5_block")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Block2" type="NinePatchRect" parent="Demo"]
+offset_left = -200.0
+offset_top = 8.0
+offset_right = 600.0
+offset_bottom = 120.0
+scale = Vector2(0.5, 0.5)
+mouse_filter = 2
+texture = ExtResource("5_block")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Block3" type="NinePatchRect" parent="Demo"]
+offset_left = -200.0
+offset_top = -48.0
+offset_right = 600.0
+offset_bottom = 64.0
+scale = Vector2(0.5, 0.5)
+mouse_filter = 2
+texture = ExtResource("5_block")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Block4" type="NinePatchRect" parent="Demo"]
+offset_left = -200.0
+offset_top = -104.0
+offset_right = 600.0
+offset_bottom = 8.0
+scale = Vector2(0.5, 0.5)
+mouse_filter = 2
+texture = ExtResource("5_block")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Block5" type="NinePatchRect" parent="Demo"]
+offset_left = -200.0
+offset_top = -160.0
+offset_right = 600.0
+offset_bottom = -48.0
+scale = Vector2(0.5, 0.5)
+mouse_filter = 2
+texture = ExtResource("5_block")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Slider" type="Control" parent="Demo"]
+layout_mode = 0
+offset_left = -420.0
+offset_top = -216.0
+offset_right = -420.0
+offset_bottom = -216.0
+mouse_filter = 2
+
+[node name="Face" type="NinePatchRect" parent="Demo/Slider"]
+self_modulate = Color(0.8, 0.62, 0.96, 1)
+offset_right = 800.0
+offset_bottom = 112.0
+scale = Vector2(0.5, 0.5)
+mouse_filter = 2
+texture = ExtResource("5_block")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Play" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -280.0
+offset_top = -230.0
+offset_right = 280.0
+offset_bottom = -70.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_type_variation = &"ButtonPrimary"
+
+[node name="UIButton" type="Node" parent="Play"]
+script = ExtResource("2_button")
+
+[node name="UIAnchor" type="Node" parent="Play"]
+script = ExtResource("3_anchor")
+anchor_name = "lobby_play"
+
+[node name="PressBounce" type="Node" parent="Play"]
+script = ExtResource("4_bounce")
