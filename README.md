@@ -58,7 +58,7 @@ YouTube URL in [reference.md](records/setup/reference/reference.md) first (needs
 tools/bin/ogw game reference open-game-works-game-block-stack <YouTube URL from reference.md>
 ```
 
-<details><summary>Before the first DEV build</summary>
+### Before the first DEV build
 
 - Building the macOS app needs an Apple silicon Mac with Xcode 27.
 - `settings.json` has no build stage values yet (server URLs, deploy hosts, signing, CDN, server image); the lead agent
@@ -66,8 +66,6 @@ tools/bin/ogw game reference open-game-works-game-block-stack <YouTube URL from 
 - `settings.json` holds only secret names. Put the values in your host's secret store with
   `tools/bin/ogw secret generate open-game-works-game-block-stack DEV` (generated values) and
   `tools/bin/ogw secret set open-game-works-game-block-stack <DEV|signing> <name>` (the others, read from stdin).
-
-</details>
 
 ## How it is built
 

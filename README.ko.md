@@ -58,7 +58,7 @@ tools/bin/ogw instance stop <id>
 tools/bin/ogw game reference open-game-works-game-block-stack <reference.md의 YouTube URL>
 ```
 
-<details><summary>첫 DEV 빌드 전에</summary>
+### 첫 DEV 빌드 전에
 
 - macOS 앱을 빌드하려면 Xcode 27이 있는 Apple silicon Mac이 필요하다.
 - `settings.json`에는 아직 빌드 단계 값(서버 URL, 배포 호스트, 서명, CDN, 서버 이미지)이 없다. 첫 `build`의 리드
@@ -66,8 +66,6 @@ tools/bin/ogw game reference open-game-works-game-block-stack <reference.md의 Y
 - `settings.json`에는 시크릿 이름만 있다. 값은 호스트의 시크릿 저장소에 넣는다. 생성할 수 있는 값은
   `tools/bin/ogw secret generate open-game-works-game-block-stack DEV`로, 나머지는
   `tools/bin/ogw secret set open-game-works-game-block-stack <DEV|signing> <name>`으로 넣는다(값은 표준 입력).
-
-</details>
 
 ## 만든 방식
 
