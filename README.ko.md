@@ -9,7 +9,7 @@
 
 ## 직접 플레이하기
 
-하네스 README의 [Quick start](https://github.com/wnsrn3436/open-game-works-core#quick-start)대로 준비한
+하네스 README의 [빠른 시작](https://github.com/wnsrn3436/open-game-works-core/blob/main/README.ko.md#빠른-시작)대로 준비한
 open-game-works 작업 공간이 필요하다.
 
 ```sh
