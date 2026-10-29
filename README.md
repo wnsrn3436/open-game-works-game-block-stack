@@ -27,7 +27,7 @@ installs this game's engine (Godot 4.7.2). The instance logs in with a dev accou
 ## The game
 
 A block slides left and right over the tower. One click drops it: the part that hangs over the block below is cut off,
-so the next block is narrower, and the slide gets faster with every block. A drop that lines up with the block below is
+so the next block is that much narrower, and the slide gets faster with every block. A drop that lines up with the block below is
 a perfect drop: the block keeps its width and scores a streak bonus, and from the third perfect in a row it grows back.
 The run ends when a block misses the tower; `Play again` starts the next run at once. Only the best score, best streak,
 run count and total blocks are kept. There are no coins, skins, ads, payments or continues.
@@ -50,8 +50,8 @@ Give these commands in the harness session opened in `open-game-works-core/`:
 - `update game: open-game-works-game-block-stack <request>` changes the game through the loop and merges the result.
 - `build: open-game-works-game-block-stack DEV` builds the macOS app into `builds/` and deploys the DEV server.
 
-The judge agent of `update game` needs the reference gameplay videos, which are not in the repository. Fetch each
-YouTube URL in [reference.md](records/setup/reference/reference.md) first (needs `yt-dlp`); it is saved under the name
+The `update game` judge agent needs the reference gameplay videos, which are not in the repository. Fetch each
+YouTube URL in [reference.md](records/setup/reference/reference.md) first (needs `yt-dlp`); each video is saved under the name
 `reference.md` expects:
 
 ```sh
@@ -69,7 +69,7 @@ tools/bin/ogw game reference open-game-works-game-block-stack <YouTube URL from 
 
 ## How it is built
 
-The client simulates the tower and draws the game; the server checks each run result and keeps the record.
+The client simulates and draws the tower; the server checks each run result and keeps the record.
 
 ```
 client/ (Godot)                       server/ (TypeScript, core module play-session)
@@ -79,12 +79,12 @@ run end   --- FinishPlaySession --->  verify_run (upper bounds only), apply_run
 ```
 
 It pins core `0.4.0` (`settings.json` `coreVersion`): `client/core/` and `server/core/` are copies of
-[core release v0.4.0](https://github.com/wnsrn3436/open-game-works-core-impl/releases/tag/v0.4.0). At its start,
+[core release v0.4.0](https://github.com/wnsrn3436/open-game-works-core-impl/releases/tag/v0.4.0). When it starts,
 `update game` raises `coreVersion` to the newest core release the game can use.
 
 | path | contents |
 |---|---|
-| [brief.md](brief.md) | the request, player fantasy, emotion and genre decisions |
+| [brief.md](brief.md) | the request, player fantasy, emotion and decisions on genre conventions |
 | [design.md](design.md) | core loop, screens, systems, tuning, art and audio direction |
 | [play-guide.md](play-guide.md) | what the play and judge agents read: goal, controls, flow |
 | [settings.json](settings.json) | core version, core modules, platform, language, resolution |

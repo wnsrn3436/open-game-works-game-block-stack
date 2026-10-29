@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-**블록 스택**(`Block Stack`)은 Ketchapp의 Stack 스타일의 macOS용 원탭 블록 쌓기 게임으로, AI 에이전트가
+**블록 스택**(`Block Stack`)은 Ketchapp Stack 스타일의 macOS용 원탭 블록 쌓기 게임으로, AI 에이전트가
 [open-game-works](https://github.com/wnsrn3436/open-game-works-core)로 만들었다.
 
 <p align="center"><img src=".github/media/block-stack.gif" alt="block-stack gameplay" width="640"></p>
@@ -21,15 +21,15 @@ tools/bin/ogw instance start open-game-works-game-block-stack   # 인스턴스 i
 tools/bin/ogw instance stop <id>
 ```
 
-클론한 뒤 하네스 세션(`open-game-works-core/`에서 연 Claude Code나 Codex)에서 `update env`를 한 번 실행한다. 이
-명령이 이 게임의 엔진(Godot 4.7.2)을 설치한다. 인스턴스는 개발용 계정으로 로그인하고 약관 팝업 없이 시작한다.
+클론한 뒤 하네스 세션(`open-game-works-core/`에서 연 Claude Code나 Codex)에서 `update env`를 한 번 실행해
+이 게임의 엔진(Godot 4.7.2)을 설치한다. 인스턴스는 개발용 계정으로 로그인하고 약관 팝업 없이 시작한다.
 
 ## 게임 소개
 
 블록이 탑 위에서 좌우로 움직인다. 한 번 클릭해 떨어뜨리면 아래 블록 밖으로 삐져나온 부분이 잘려 나가 다음 블록이
 그만큼 좁아지고, 블록을 쌓을 때마다 움직이는 속도가 빨라진다. 아래 블록에 딱 맞게 떨어뜨리면 퍼펙트다. 블록 폭이
-그대로 유지되고 연속 보너스가 붙으며, 세 번 연속 퍼펙트부터는 블록이 다시 넓어진다. 블록이 탑을 벗어나면 한 판이
-끝나고, `Play again`으로 바로 다음 판을 시작한다. 남는 것은 최고 점수, 최고 연속 퍼펙트, 판 수, 쌓은 블록 총수뿐이다.
+그대로 유지되고 연속 보너스가 붙으며 세 번 연속 퍼펙트부터는 블록이 다시 넓어진다. 블록이 탑을 벗어나면 한 판이
+끝나고 `Play again`으로 바로 다음 판을 시작한다. 남는 것은 최고 점수, 최고 연속 퍼펙트, 판 수, 쌓은 블록 총수뿐이다.
 코인, 스킨, 광고, 결제, 이어하기는 없다.
 
 | 입력 | 동작 |
@@ -40,8 +40,8 @@ tools/bin/ogw instance stop <id>
 
 ## 상태
 
-한 문단짜리 요청으로 `create game` 루프 한 번(반복 3번)을 돌려 만들었고, 개발 중에 macOS에서 플레이했다. 출시용
-빌드는 아직 하지 않았고, 아직 열려 있는 결함은 [루프 종료 기록](records/loops/create-1792989369596/end.md)에 있다.
+한 문단짜리 요청으로 `create game` 루프 한 번(반복 3번)을 돌려 만들었고 개발 중에 macOS에서 플레이했다. 출시용
+빌드는 아직 하지 않았고 열려 있는 결함은 [루프 종료 기록](records/loops/create-1792989369596/end.md)에 있다.
 
 ## AI로 고치기
 
@@ -50,7 +50,7 @@ tools/bin/ogw instance stop <id>
 - `update game: open-game-works-game-block-stack <request>`는 루프로 게임을 고치고 결과를 병합한다.
 - `build: open-game-works-game-block-stack DEV`는 macOS 앱을 `builds/`에 빌드하고 DEV 서버를 배포한다.
 
-`update game`의 판정 에이전트에게는 레퍼런스 게임 플레이 영상이 필요한데, 영상은 저장소에 없다. 먼저
+`update game`의 판정 에이전트에게는 레퍼런스 게임 플레이 영상이 필요한데 영상은 저장소에 없다. 먼저
 [reference.md](records/setup/reference/reference.md)의 YouTube URL마다 받아 온다(`yt-dlp` 필요). 영상은
 `reference.md`가 기대하는 이름으로 저장된다.
 
@@ -69,7 +69,7 @@ tools/bin/ogw game reference open-game-works-game-block-stack <reference.md의 Y
 
 ## 만든 방식
 
-탑은 클라이언트가 시뮬레이션하고 그리며, 서버는 판 결과를 확인하고 기록을 보관한다.
+탑은 클라이언트가 시뮬레이션하고 그리며 서버는 판 결과를 확인하고 기록을 보관한다.
 
 ```
 client/ (Godot)                       server/ (TypeScript, core module play-session)
