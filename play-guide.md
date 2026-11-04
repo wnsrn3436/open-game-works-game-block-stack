@@ -32,12 +32,12 @@ Stack as many blocks as possible. A block slides left and right above the tower;
 - run start: no block slides until the server answers (about 100ms~500ms); a drop does nothing
 - after each drop: 150ms (`[next_block_delay]`) until the next block slides; a drop does nothing
 - after a miss: 1000ms (`[fall_wait]`) of fall plus the result save before the result panel; input does nothing
-- pause popup: while it is open, game time stops and the block holds. In step mode during this time `ogw step` fails with game time paused. Close it with `tap_anchor pause_resume`
+- pause popup: while it is open, game time stops and the block holds. In step mode during this time `ogw step` fails with game time paused. Close it with `click_anchor pause_resume`
 
 ## fastest start path
 
-1. (new user) terms popup `tap_anchor terms_agree_all` → `tap_anchor terms_confirm`
-2. Lobby: `tap_anchor lobby_play`
+1. (new user) terms popup `click_anchor terms_agree_all` → `click_anchor terms_confirm`
+2. Lobby: `click_anchor lobby_play`
 3. About 300ms~2000ms of loading and the server answer, then the first block slides; `key Space` drops it
 
 ## play mode
